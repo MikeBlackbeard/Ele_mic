@@ -1,0 +1,4 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "Traffic_Light\\Traffic_Light.ino"
+}
