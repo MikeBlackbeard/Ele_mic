@@ -1,8 +1,10 @@
+
+
 void setup()
 {
-  /*Microcontroller course in the department of Electronics Engineering 
-   *At Hochshule Hamm-Lippstadt University of Applied Sciences. 
-   Professor Stefan Henkler.
+  /*Microcontroller course in the department of Electronics Engineering ok 
+   *At Hochshule Hamm-Lippstadt University of Applied Sciences
+   Professor Stefan Henkler
     */
       
   pinMode(12,OUTPUT);
