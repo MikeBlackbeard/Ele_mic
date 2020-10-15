@@ -1,0 +1,74 @@
+Tasks:
+
+1. Develop a circuit for one led + One LED program (Marwa)
+2. Develop a circuit for traffic light + Traffic light program (Mike)
+3. Class Diagram - (Vincent)
+4. State Machine Diagram - (Abeeb)
+5. Pins configuration - (Amit)
+6. Documentation - (Charles)
+
+
+***************************************************
+****                                           ****
+****  Deadline to upload tasks on Sunday noon  ****
+****                                           ****
+***************************************************
+
+===================================================
+====                                           ====
+====       NEXT MEETING ON SUNDAY 14:00        ====
+====                                           ====
+===================================================
+
+
+
+Main components:
+
+Arduino UNO
+
+3 resistors 220 ohms
+3 light emitting diodes (Red - Green -Yellow)
+Breadboard
+connecting wires
+
+Resistor calculation:
+
+According with the Datasheet for 5mm LED, the Continues Forward Current for the diode is 25mA
+The voltage for this project is 5v (Arduino DC voltage)
+With this values and ohm’s law:
+R = v/i
+R = 5/0.025
+R = 200 ohms
+To prevent damaging the LEDs for a high current flowing we decided to use 220 ohms resistors.
+
+===============================================================================================
+
+1. Develop a circuit
+
+output 8 - green
+output 9 - yellow
+output 10 - red
+
+Resistors: 220 ohms
+
+
+===============================================================================================
+
+2. Develop a program
+
+UML model
+- Class Diagram:
+
+bool red_light
+bool yellow_light
+bool green_light
+
+chage_light() function
+
+- State Machine Diagram
+
+Start the Arduino IDE
+Which Pins should be used
+Configure the Pin configuration
+- Develop a program for one LED
+- Develop a program for traffic light control
