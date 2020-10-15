@@ -1,7 +1,7 @@
 # This is the repository for our Micro Controller Course
 # Our Team name is Micro-MAC VAM Team
 # This is the protocol for our team
-# ===================================================================
+# =================================
 #
 # REPOSITORY ORGANIZATION 
 # - 1. The Main working 'Branch' is the mater branch
