@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   changeLights();
-    delay(10000);
+    delay(20000);
 
 }
 
