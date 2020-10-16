@@ -1,0 +1,40 @@
+check Leds separately from each other : 
+
+1- Defining the positive side of the led (longer ) and the negative side ,we can check each led via 2 ways :
+  A- if we do have a Multimeter , we  connect the positive with Anode probs and the negative led with cathode ,if the led   is working ,it will illuminate and give us a visible light .
+
+
+
+ B- Develop a circuit by connecting a 5v battery to the led in serious with resistance :
+To calculate the amount of resistance required :
+
+
+-From the Led data sheet  : I = 25mA , V = 5 v …..
+
+ V = I * R …....Ohm’s law
+
+R = 5*10^3 / 25 = 200 Ohm 
+
+
+
+
+Develop a program to control one led : 
+
+To control a circuit ,we will develop a program on Ardiuno IDE and simulate it on Tinkercard :
+
+
+-The Led can be controlled by “ Flashing on and off “ after certain time "5 sec" set in the program  
+
+-The led is connected to PIN number 12 on the Ardiuno  the amount of the R =200 ohm as calculated before. 
+
+
+See the link : 
+https://www.tinkercad.com/things/3teNCLmHepX-magnificent-rottis-bojo/editel?tenant=circuits
+
+-The program file on IDE is uploaded and has name " one led code.ino"
+
+
+
+
+
+
