@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   changeLights();
-}
+ }
 
 void changeLights(){
     // green off, yellow on for 3 seconds
@@ -23,10 +23,10 @@ void changeLights(){
     digitalWrite(yellow, LOW);
     digitalWrite(red, HIGH);
     delay(5000);
-    // red and yellow on for 2 seconds (red is already on though)
+    // red and yellow on for 3 seconds (red is already on though)
     digitalWrite(yellow, HIGH);
     delay(3000);
-    // turn off red and yellow, then turn on green
+    // turn off red and yellow, then turn on green for 5 seconds
     digitalWrite(yellow, LOW);
     digitalWrite(red, LOW);
     digitalWrite(green, HIGH);
