@@ -19,4 +19,4 @@ void loop()
   
 }
 
-Tinkercard link : https://www.tinkercad.com/things/3teNCLmHepX-magnificent-rottis-bojo/editel?tenant=circuits
+Tinkercard link : https://www.tinkercad.com/things/3teNCLmHepX

@@ -29,8 +29,7 @@ To control a circuit ,we will develop a program on Ardiuno IDE and simulate it o
 
 
 See the link : 
-https://www.tinkercad.com/things/3teNCLmHepX-magnificent-rottis-bojo/editel?tenant=circuits
-
+https://www.tinkercad.com/things/3teNCLmHepX
 -The program file on IDE is uploaded and has name " one led code.ino"
 
 
