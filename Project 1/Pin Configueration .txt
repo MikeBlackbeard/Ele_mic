@@ -1,4 +1,6 @@
-Digital pins can be used as input and output command via pinMode(), digitalRead(), and digitalWrite() .Every pin has build in resistor which can be controlled by digitalWrite() with a value of high or low. The maximum current a pin can consume is 40mA.
+Digital pins can be used as input and output command via pinMode(), digitalRead(), and digitalWrite().
+Every pin has build in resistor which can be controlled by digitalWrite() with a value of high or low. 
+The maximum current a pin can consume is 40mA.
 
 Serial number 0(RX) and 1(TX)
 -0(RX) is for incoming signal and 1(Rx) is for sending TTL signal data. They both are connected to USB-TTL module .
