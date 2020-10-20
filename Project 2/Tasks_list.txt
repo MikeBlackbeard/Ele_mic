@@ -1,0 +1,9 @@
+Tasks for Lab 2:
+
+
+1. Circuit on paper or fritzing.
+2. Circuit on Breadboard (Tinkercad).
+3. Class Diagram.
+4. State Machine Diagram.
+5. Program.
+6. Documentation.
