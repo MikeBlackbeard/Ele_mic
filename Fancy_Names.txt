@@ -1,18 +1,21 @@
 Please Add a point or a star in front of a name that you like
 
 
-CircuitLogics
+1 Micro MAC VAM(keep the name that we have)
 
-Opcoder
 
-Icontroller
+2 CircuitLogics
 
-semicro
+3 Opcoder
 
-virtex
+4 Icontroller
 
-Connectchip
+5 semicro
 
-microp
+6 virtex
 
-bytech
+7 Connectchip
+
+8 microp
+
+9 bytech
