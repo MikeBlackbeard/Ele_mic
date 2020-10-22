@@ -1,4 +1,18 @@
-Tasks for Lab 2:
+Tasks for Lab 2 :
+
+-Including a pushbuttom !!
+Input : PIN 13 
+
+-traffic pins :
+output 8 - green
+output 9 - yellow
+output 10 - red
+
+-pedesterian pins : 
+output 11 - green
+output 12 - red
+
+
 
 
 1. Circuit on paper or fritzing.......Abeeb
