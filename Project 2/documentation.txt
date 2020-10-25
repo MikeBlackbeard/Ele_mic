@@ -1,0 +1,81 @@
+Documentation for a Traffic Light System with Pedestrian Cross Button. 
+
+The system was designed using the Arduino Uno Micro-Controller board, which is composed of: 
+1. USB Connector (Which can also be used to supply 5V power to the board). 
+2. Power Port (Which is used as the primary power supply to the board) 
+3. Microcontroller
+4. Analog input pins 
+5. Digital Pins
+6. Reset Switch
+7. Crystal Oscillator
+8. USB interface Chip, and much more. 
+
+Steps involved in realizing the Traffic Light System with Pedestrian Cross Button includes: 
+
+Step 1: The UML Class Diagram
+By first drawing the Class Diagram it enabled us to identify the various classes that are in the system and the various relationships between the classes.
+The classes include the following;
+1. TLS
+2. Traffic_Light
+3. Pedestrain_Light
+4. CrossButton
+5. Green
+6. Red
+7. Yellow
+
+Step 2: The UML State Machine Diagram
+This enabled us to be able to visualize the various states that the device can be in at every given time. 
+The various states include; 
+1. Traffic_Yellow_Pedesterian_Red
+2. Traffic_Red_Pedestrain_Green
+3. Traffic_Red_Yellow_Pedestrian_Red
+4. Traffic_Green_Pedestrain_Red
+The process continues in an infinity loop. 
+
+Step 3: The Circuit Diagram
+After completion of the UML diagram, the next thing is to draw the circuit diagram according to the various specifications.
+The items used for the realization of the Circuit includes the following; 
+1. 5pcs of 200 Ohms resistor (Calculations for the resistor below)
+2. 1 pc of 10K Ohms resistor
+3. 2 pcs of Red Led 
+4. 2 pcs of Green Led
+5. 1 pc of Yellow Led
+6. 5V power source 
+7. Push Button 
+8. Arduino UNO 3 Microcontroller 
+9. Wires for the connections
+
+Resistor calculation:
+According to the Datasheet for 5mm LED, the Continues Forward Current for the diode is 25mA
+The voltage for this project is 5v (Arduino DC voltage)
+
+With these values and Ohm’s law:
+R = v/i
+R = 5/0.025
+R = 200 ohms
+To prevent damaging the LEDs for a high current flow we decided to use 220 ohms resistors. boolean 
+
+Step 4: Pin Configurations
+The Arduino input pins that would be used for the Microcontroller are selected at this stage. The following pins were used; 
+
+Push_Button: 
+Input: PIN 13
+
+Traffic_Light: 
+Green - Output: PIN 8
+Yellow - Output: PIN 9
+Red - Output: PIN 10
+
+Pedestrian: 
+Green - Output: PIN 11
+Green - Output: PIN 12
+
+Step 5: Programming
+Based on the availabilities of all the parameters above, a code would be written and uploaded to the Arduino Microcontroller for the realization of the Traffic Light System. 
+
+The program is written with C++ 
+
+Step 6: Realisation of the Traffic Light System. 
+The physical system is then realized as is in the "Circuit diagram", pin configuration, and then the program has then uploaded the Microcontroller. 
+
+A virtual realization of the Microcontroller is done with "TinkerCad".
