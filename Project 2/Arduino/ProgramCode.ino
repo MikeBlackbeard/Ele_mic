@@ -10,7 +10,7 @@ int pedred = 12;
 int pedgreen = 11;
 
 //button pin
-int button = 2; 
+int button = 13; 
 
 //Wait button
 int white = 7;
