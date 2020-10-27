@@ -1,5 +1,5 @@
 # This is the repository for our Micro Controller Course
-# Our Team name is Micro-MAC VAM Team
+# Our Team name is Opcoder Team
 # This is the protocol for our team
 # =================================
 #
