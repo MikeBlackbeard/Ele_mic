@@ -1,5 +1,3 @@
-
-
 //car lights assigned
 int cargreen = 10;
 int caryellow = 9;
@@ -25,15 +23,15 @@ unsigned long time2 = 0;
 
 
 void setup () {
-  pinMode(carred, OUTPUT);
-  pinMode(caryellow, OUTPUT);
-  pinMode(cargreen, OUTPUT);
-  pinMode(pedred, OUTPUT);
-  pinMode(pedgreen, OUTPUT);
-  pinMode(button, INPUT);
-  pinMode(white, OUTPUT);
-    pinMode(orange, OUTPUT);
-  Serial.begin(9600);
+	pinMode(carred, OUTPUT);
+	pinMode(caryellow, OUTPUT);
+	pinMode(cargreen, OUTPUT);
+	pinMode(pedred, OUTPUT);
+	pinMode(pedgreen, OUTPUT);
+	pinMode(button, INPUT);
+	pinMode(white, OUTPUT);
+  	pinMode(orange, OUTPUT);
+	Serial.begin(9600);
 }
 
 void loop() {
@@ -49,20 +47,22 @@ void changeLights(){
 }
 
 void go_yellow(){
-    digitalWrite(cargreen, LOW);
-    digitalWrite(caryellow, HIGH);
-    digitalWrite(pedred, HIGH);
-    digitalWrite(pedgreen, LOW);
-    delay(3000);
+  	digitalWrite(cargreen, LOW);
+  	digitalWrite(caryellow, HIGH);
+  	digitalWrite(pedred, HIGH);
+  	digitalWrite(pedgreen, LOW);
+  	delay(3000);
 }
 
 void go_red(){
-    digitalWrite(caryellow, LOW);
+  	digitalWrite(caryellow, LOW);
     digitalWrite(carred, HIGH);
     digitalWrite(pedred, LOW);
     digitalWrite(pedgreen, HIGH);
-  unsigned long time1 = millis();
+	unsigned long time1 = millis();
     unsigned long time2 = millis();
+  
+  	delay(8000);
     
     
     unsigned long elapsed = 0;
@@ -78,8 +78,8 @@ void go_red(){
             digitalWrite(orange, HIGH);        
         }
         
-        if((button_on == true) && (elapsed > 20000))
-            change = true;
+        if((button_on == true) && (elapsed > 15000))
+          	change = true;
 
         if((button_on == false) && (elapsed > 10000))
             change = true;
@@ -90,16 +90,16 @@ void go_red(){
 
 
 void go_yellow_red(){
-    digitalWrite(caryellow, HIGH);
+  	digitalWrite(caryellow, HIGH);
     digitalWrite(pedred, HIGH);
     digitalWrite(pedgreen, LOW);
     delay(3000);
 }
 
 void go_green(){
-    digitalWrite(cargreen, HIGH);
-    digitalWrite(caryellow, LOW);
-    digitalWrite(carred, LOW);
+  	digitalWrite(cargreen, HIGH);
+  	digitalWrite(caryellow, LOW);
+  	digitalWrite(carred, LOW);
     unsigned long time1 = millis();
     unsigned long time2 = millis();
     
@@ -118,7 +118,7 @@ void go_green(){
         }
         
         if((button_on == true) && (elapsed > 10000))
-            change = true;
+          	change = true;
 
         if(elapsed > 20000)
             change = true;
