@@ -1,6 +1,16 @@
 Tasks for Lab 3:
 Add a bus drive interrupt
 
+
+list of tasks
+
+
+1. Circuit on paper or fritzing / Circuit on Breadboard (Tinkercad)
+2. UML diagrams
+3. Program, Code
+4. Documentation
+
+
 A bus driver can extend the green phase of the traffic light by 10 seconds 
 If the traffic light is not in the green state it triggers the transition 
 from red to yellow and yellow to green faster as in the usual way
@@ -9,17 +19,17 @@ Note: the button for the pedestrian has a higher priority than the bus-driver bu
 
 
 
--traffic pins :
+-traffic pins:
 output 8 - green
 output 9 - yellow
 output 10 - red
 
--pedesterian pins : 
+-pedestrian pins: 
 output 11 - green
 output 12 - red
 
--Pedesterian pus button:
-Input : PIN 13 
+-Pedestrian pus button:
+Input: PIN 13 
 
 -Wait signal
 output 7 - White
@@ -29,12 +39,3 @@ output 6 - Orange
 
 -Bus drive interrupt
 input 2
-
-
-
-1. Circuit on paper or fritzing
-2. Circuit on Breadboard (Tinkercad)
-3. Class Diagram
-4. State Machine Diagram
-5. Program, Code
-6. Documentation
