@@ -1,0 +1,73 @@
+Protocol for Project : Smart home 
+Team Name : Opcoder Team
+Team members : 
+•Miguel Antonio Rodriguez Delgado
+• Vincent Chinedu Obigwe
+• Marwa mohammed nabawey Hassan 
+• Abeeb Opeyemi Nureni
+• Charles Arsenal Okere
+• Amit Chakma
+
+
+
+Meeting No.: project 4 ,1st meeting 
+Meeting Date : 12-11-2020
+Meeting Time : 10:40   
+Meeting Venue : online – BBB session 
+Attendees : all the members 
+Absent Members : ---
+
+Agenda Details : 
+1- Start searching for resources about the smart home 
+
+Meeting Minutes : 
+-keep searching on the topic 
+
+Actions plan & Assigned to : 
+1-each member keep on searching and we meet afternoon to discuss about the main points 
+
+
+
+
+
+
+Meeting No.: project 4 ,2nd  meeting 
+Meeting Date : 12-11-2020
+Meeting Time : 16:00  
+Meeting Venue : online - Google meet 
+Attendees : all the members 
+Absent Members : ---
+
+Agenda Details : 
+1- Organize the research points .
+2- share the tasks with members .
+
+
+Meeting Minutes : 
+Research points discussed :
+1-What is the smart home? 
+2-Consititants on SW&HW.
+3- benefits .
+4- Examples .
+5-Pros &Cons ….Pic preferred .
+6-Summary &conclusion and references . 
+
+
+Actions plan & Assigned to &deadline: 
+- Each point need to represent in max 2 slides ,submit the APA 7th edition format of the reference ( citation). 
+
+1-What is the smart home……..Abeeb
+2-Components of smart home ( SW&HW) ..……..Charles .
+3- Communication protocols with other devices & Uno…….Miguel 
+4- Examples …….Marwa 
+5-Pros &Cons ….Pic preferred …..Amit 
+Deadline for points 1-5 : Sunday  15-11-2020 
+6-Summary &conclusion and references ,collect the data in one file and design ……Vincent …Wednesday  18-11-2020
+
+Next meeting will be on : Sunday  15-11-2020 at 10:00 .
+
+
+
+
+
+
