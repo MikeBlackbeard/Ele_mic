@@ -69,6 +69,33 @@ Next meeting will be on : Sunday  15-11-2020 at 10:00 .
 -----------------------------------------------------------------------------------------------------------------
 
 
+Meeting No.: 3rd meeting on smart home project 
+Meeting Date : 15-11-2020 
+Meeting Time :  10 am 
+Meeting Venue : online -google meet 
+Attendees : all members 
+Absent Members : -----
+
+Agenda Details : 
+-rearranged and discuss the point from each member   : 
+1-What is the smart home……..Abeeb
+2- Examples …….Marwa 
+3-Components of smart home ( SW&HW) ..……..Charles .
+4- Communication protocols with other devices & Uno…….Miguel 
+5-Pros &Cons ….Pic preferred …..Amit 
+
+
+
+Meeting Minutes : 
+1-agreed the points to present 
+
+
+Actions plan & Assigned to &deadline: 
+10 min presentation on next meeting .
+
+Next meeting will be on : Wed at 3 pm to do a rehersal 
+-----------------------------------------------------------------------------------------------------------------
+
 Meeting No.: 
 Meeting Date : 
 Meeting Time :  
@@ -88,8 +115,7 @@ Actions plan & Assigned to &deadline:
 
 
 Next meeting will be on : 
------------------------------------------------------------------------------------------------------------------
-
+-------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date : 
 Meeting Time :  
