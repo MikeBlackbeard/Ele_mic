@@ -82,7 +82,8 @@ Agenda Details :
 2- Examples …….Marwa 
 3-Components of smart home ( SW&HW) ..……..Charles .
 4- Communication protocols with other devices & Uno…….Miguel 
-5-Pros &Cons ….Pic preferred …..Amit 
+5-Pros &Cons ….Pic preferred …..Amit
+6- Summary and Design .... Vincent
 
 
 
