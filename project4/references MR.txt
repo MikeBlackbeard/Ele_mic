@@ -1,4 +1,0 @@
-Reference list Miguel Rodriguez:
-
-- Goodwin, S. (2013) Smart home automation with Linux and Raspberry Pi. (Technology in Action). Berkeley CA? Apress.
-- Miller, M. (2017) My smart home for seniors. Indianapolis, Indiana: Que.
