@@ -182,25 +182,60 @@ Next meeting will be on : 22-11-2020 ...at 11 am .
 
 -------------------------------------------------------------------------------------------------------------------
 
-Meeting No.: 
-Meeting Date : 
-Meeting Time :  
-Meeting Venue : 
-Attendees : 
+Meeting No.: [407]
+Meeting Date : 22-11-2020
+Meeting Time :  11 am 
+Meeting Venue : google meet 
+Attendees : all members 
 Absent Members : 
 
 Agenda Details : 
-1- 
+1- Discuss the adv & dis adv of the communications protocols .
+2-agreed on 2 main ideas to present next lab :
 
+1- Unified device using new communication protocol.
+2- smart home ...2nd edition (after adding the new features) .
+Inside the home:
+-smart lock
+-smart oven
+-smart vacum cleaner .
+-self cleaning toilet. 
+
+outside the home : 
+- smart farm (smart irrigation).
+-smart lawn moer .
 
 Meeting Minutes : 
-1-
+-Share the tasks : 
+
+1- Identify disadvantages of the current smart home approaches....old PPT + update to suit the new ideas ......
+- Unified device using new communication protocol.
+- smart home ...2nd edition (after adding the new features) .
+..... Vincent 25-11-2020 on Wed.
+
+the rest : Deadline : 24-11-2020 on Tuesday 12 midnight 
+
+2- identify new functionalities to be considered in a smart home .
+challenges/requirements .
+2.1 Idea 1 ...Miguel (the table ) 
+2.2 Idea 2 (smart home with new feature ).......Charles 
+
+ 3-Develop a first prototype of your smart home system  ( component diagram ) : 
+ 3.1 Idea 1 ...Marwa 
+ 3.2 Idea 2 ....Amit 
+ 
+4- Create a raw 2D prototype
+4.1 Idea 1 ...Abeeb 
+4.2 Idea 2 ......Miguel 
+
 
 
 Actions plan & Assigned to &deadline: 
+all the team member should pass thier task to Vinent to collect them on one PDF file +upload them.
+all  team members uplaod thier task on the github on the created 2 folders ,named Idea 1 ,Idea 2 . 
 
 
-Next meeting will be on : 
+Next meeting will be on : during the next class 
 
 
 -------------------------------------------------------------------------------------------------------------------
