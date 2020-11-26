@@ -240,25 +240,33 @@ Next meeting will be on : during the next class
 
 -------------------------------------------------------------------------------------------------------------------
 
-Meeting No.: 
-Meeting Date : 
-Meeting Time :  
-Meeting Venue : 
-Attendees : 
-Absent Members : 
+Meeting No.: [408]
+Meeting Date : 26.11.20
+Meeting Time : 11:00
+Meeting Venue : During the Lab
+Attendees : All
+Absent Members : None 
 
 Agenda Details : 
-1- 
+1- Discuss ideas that we presented to the Professor
 
 
 Meeting Minutes : 
-1-
+
+1. Smart socket - Abeeb
+2. Smart oven - Charles
+3. Smart sensors to know where you are - Mike
+4. Personal assistance - Amit
+5. Smart home securiry - Marwa
+6. Smart home entertaintment - Vincent
 
 
 Actions plan & Assigned to &deadline: 
+Each member has to define advantages and disadvantages of his/her selected task
 
 
 Next meeting will be on : 
+28.11.20 at 11:30 am.
 
 
 
