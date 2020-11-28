@@ -273,7 +273,51 @@ https://meet.google.com/mms-tate-kuc
 
 
 -------------------------------------------------------------------------------------------------------------------
+Meeting No.: [409]
+Meeting Date : 28.11.20
+Meeting Time : 11:30 am 
+Meeting Venue : google meet online
+Attendees : All
+Absent Members : None 
 
+Agenda Details : 
+- Discuss the disadvantages and Adv. of ideas as followed :
+1. Smart socket - Abeeb 
+2. Smart oven - Charles
+3. Smart sensors to know where you are - Mike
+4. Personal assistance - Amit
+5. Smart home securiry - Marwa
+6. Smart home entertaintment - Vincent
+
+
+Meeting Minutes : 
+Agreed to work on one idea : Smart home securiry
+Share the task according to the following :
+
+
+1-identified disadvantages and raw prototype...... Task 409-1....Abeeb  
+
+ 
+2- Precise environmental impact Use Class diagrams to make the environmental entities (weather, persons, other systems, regulations, …) clear as well as the relation to the system to be developed (your Smart Home).... Mike ...Task 409-2
+
+
+3-Make the interface clear (including an iteration with sequence diagram – scenarios).... Identify the to be realized scenarios....Amit ...Task 409-3
+
+
+4- Specify the scenarios with the help of use case diagrams....Marwa  ...Task 409-4
+
+5- What kind of user interaction is required (users, other systems, …)Again use sequence diagrams .....Charles ...Task 409-5
+
+6- activity diagrams to concretizethe interaction (consider a possible update / influence of the interface between your smart home and the environment).
+...Vincent ...Task 409-6 
+
+
+Actions plan & Assigned to &deadline: 
+Do the Tasks and meet to discuss it 
+
+Next meeting will be on : Tuesday , Dec 1st , at 2 pm .
+
+--------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date : 
 Meeting Time :  
