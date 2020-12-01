@@ -318,6 +318,62 @@ Do the Tasks and meet to discuss it
 Next meeting will be on : Tuesday , Dec 1st , at 2 pm .
 
 --------------------------------------------------------------------------------------------------------------------
+Meeting No.: 410 
+Meeting Date : dec 1st ,2020
+Meeting Time :  2 pm 
+Meeting Venue : google meet 
+Attendees : all members except Amit 
+Absent Members : Amit Chakma 
+
+Agenda Details : 
+1-  Dischusing the tasks to finialize the PPT for next lab. 
+
+Meeting Minutes : 
+agreed on : 
+
+First security level : Fingerprint 
+Second security level : either the NFC sensor or  saved PIN  code via keypad
+
+Camera+ speaker and Microphone 
+ 
+-Owner entering the house 
+
+1- fingerprint …Obligatory 
+2- either use NFC sensor  , generate a code for himself or use the saved pin code on the database 
+
+OR  deactive the system and enter manually 
+
+
+-Guest : 
+1- home owner is inside the home
+The guest press bell 
+The owner will see the guest through the camera 
+The owner confirm the guest 
+The owner open the door for the guest 
+
+
+2- not at home
+
+The guest press bell 
+The owner will see the guest through the camera 
+The owner confirm the guest 
+Request a pin code and send it to the guest 
+The guest unlock the door 
+
+-Someone trying to enter : 
+
+1- the system will send SOS to the owner 
+2- house owner see via the camera 
+3- can speak with person via speaker and microphone 
+4- activate alarm system .
+
+
+Actions plan & Assigned to &deadline: finalize the tasks and have a short meeting 
+
+
+Next meeting will be on : Dec2 , at 3:00pm
+
+--------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date : 
 Meeting Time :  
@@ -337,3 +393,84 @@ Actions plan & Assigned to &deadline:
 
 
 Next meeting will be on : 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date : 
+Meeting Time :  
+Meeting Venue : 
+Attendees : 
+Absent Members : 
+
+Agenda Details : 
+1- 
+
+
+Meeting Minutes : 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on : 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date : 
+Meeting Time :  
+Meeting Venue : 
+Attendees : 
+Absent Members : 
+
+Agenda Details : 
+1- 
+
+
+Meeting Minutes : 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on : 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date : 
+Meeting Time :  
+Meeting Venue : 
+Attendees : 
+Absent Members : 
+
+Agenda Details : 
+1- 
+
+
+Meeting Minutes : 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on : 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date : 
+Meeting Time :  
+Meeting Venue : 
+Attendees : 
+Absent Members : 
+
+Agenda Details : 
+1- 
+
+
+Meeting Minutes : 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on : 
+
