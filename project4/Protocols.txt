@@ -1,29 +1,29 @@
-Protocol for Project : Smart home 
-Team Name : Opcoder Team
-Team members : 
+Protocol for Project: Smart home 
+Team Name: Opcoder Team
+Team members: 
 •Miguel Antonio Rodriguez Delgado
 • Vincent Chinedu Obigwe
-• Marwa mohammed nabawey Hassan 
+• Marwa Mohammed Nabawey Hassan 
 • Abeeb Opeyemi Nureni
 • Charles Arsenal Okere
 • Amit Chakma
 
 -------------------------------------------------------------------
 
-Meeting No.: project 4 ,1st meeting  [401]
-Meeting Date : Thursday , 12-11-2020
-Meeting Time : 10:40   ,Lab class 
-Meeting Venue : online – BBB session 
-Attendees : all the members 
-Absent Members : ---
+Meeting No.: project 4 ,1st meeting [401]
+Meeting Date: Thursday, 12-11-2020
+Meeting Time: 10:40, Lab class 
+Meeting Venue: online – BBB session 
+Attendees: all the members 
+Absent Members: ---
 
-Agenda Details : 
+Agenda Details: 
 1- Start searching for resources about the smart home 
 
-Meeting Minutes : 
+Meeting Minutes: 
 -keep searching on the topic 
 
-Actions plan & Assigned to : 
+Actions plan & Assigned to: 
 1-each member keep on searching and we meet afternoon to discuss about the main points 
 
 
@@ -31,198 +31,198 @@ Actions plan & Assigned to :
 
 -------------------------------------------------------------------------
 
-Meeting No.: project 4 ,2nd  meeting [402]
-Meeting Date : 12-11-2020
-Meeting Time : 16:00  
-Meeting Venue : online - Google meet 
-Attendees : all the members 
-Absent Members : ---
+Meeting No.: project 4 ,2nd meeting [402]
+Meeting Date: 12-11-2020
+Meeting Time: 16:00  
+Meeting Venue: online - Google meet 
+Attendees: all the members 
+Absent Members: ---
 
-Agenda Details : 
-1- Organize the research points .
-2- share the tasks with members .
+Agenda Details: 
+1- Organize the research points.
+2- share the tasks with members.
 
 
-Meeting Minutes : 
-Research points discussed :
+Meeting Minutes: 
+Research points discussed:
 1-What is the smart home? 
 2-Consititants on SW&HW.
-3- benefits .
-4- Examples .
-5-Pros &Cons ….Pic preferred .
-6-Summary &conclusion and references . 
+3- benefits.
+4- Examples.
+5-Pros &Cons …. Pic preferred.
+6-Summary &conclusion and references. 
 
 
 Actions plan & Assigned to &deadline: task [401] Research 
-- Each point need to represent in max 2 slides ,submit the APA 7th edition format of the reference ( citation). 
+- Each point needs to represent in max 2 slides, submit the APA 7th edition format of the reference (citation). 
 
-1-What is the smart home……..Abeeb
-2-Components of smart home ( SW&HW) ..……..Charles .
-3- Communication protocols with other devices & Uno…….Miguel 
-4- Examples …….Marwa 
-5-Pros &Cons ….Pic preferred …..Amit 
-Deadline for points 1-5 : Sunday  15-11-2020 
-6-Summary &conclusion and references ,collect the data in one file and design ……Vincent …Wednesday  18-11-2020
+1-What is the smart home……. Abeeb
+2-Components of smart home (SW&HW).……. Charles.
+3- Communication protocols with another devices & Uno……. Miguel 
+4- Examples ……. Marwa 
+5-Pros &Cons …. Pic preferred …. Amit 
+Deadline for points 1-5: Sunday 15-11-2020 
+6-Summary &conclusion and references, collect the data in one file and design ……Vincent …Wednesday 18-11-2020
 
-Next meeting will be on : Sunday  15-11-2020 at 10:00 .
+Next meeting will be on Sunday 15-11-2020 at 10:00.
 
 -----------------------------------------------------------------------------------------------------------------
 
 
 Meeting No.: 3rd meeting on smart home project [403]
-Meeting Date : 15-11-2020 
-Meeting Time :  10 am 
-Meeting Venue : online -google meet 
-Attendees : all members 
-Absent Members : -----
+Meeting Date: 15-11-2020 
+Meeting Time:  10 am 
+Meeting Venue: online -google meet 
+Attendees: all members 
+Absent Members: -----
 
-Agenda Details : 
--rearranged and discuss the point from each member   : 
-1-What is the smart home……..Abeeb
-2- Examples …….Marwa 
-3-Components of smart home ( SW&HW) ..……..Charles .
-4- Communication protocols with other devices & Uno…….Miguel 
-5-Pros &Cons ….Pic preferred …..Amit
+Agenda Details: 
+-rearranged and discuss the point from each member: 
+1-What is the smart home……. Abeeb
+2- Examples ……. Marwa 
+3-Components of smart home (SW&HW).……. Charles.
+4- Communication protocols with another devices & Uno……. Miguel 
+5-Pros &Cons …. Pic preferred …. Amit
 6- Summary and Design .... Vincent
 
 
 
-Meeting Minutes : 
+Meeting Minutes: 
 1-agreed the points to present 
 
 
 Actions plan & Assigned to &deadline: 
-10 min presentation on next meeting .
+10 min presentation on next meeting.
 
-Next meeting will be on : Wed at 3 pm to do a rehersal 
+Next meeting will be on: Wed at 3 pm to do a rehearsal 
 -----------------------------------------------------------------------------------------------------------------
 
 Meeting No.: 4th meeting on smart home project [404]
-Meeting Date : 18-11-2020 
-Meeting Time :  3 pm 
-Meeting Venue : google meet 
-Attendees : all team member 
-Absent Members : -----
+Meeting Date: 18-11-2020 
+Meeting Time:  3 pm 
+Meeting Venue: google meet 
+Attendees: all team member 
+Absent Members: -----
 
-Agenda Details : 
+Agenda Details: 
 1- Each group members present his search point 
 
 
-Meeting Minutes : 
-1-Do Rehersal on PPT prepeared 
+Meeting Minutes: 
+1-Do Rehearsal on PPT prepared 
 
 
-Actions plan & Assigned to &deadline:try to minimize the time on the presented point as much as possible 
+Actions plan & Assigned to &deadline: try to minimize the time on the presented point as much as possible 
 
 
-Next meeting will be on : 19-11-2020 on the class time 
+Next meeting will be on: 19-11-2020 on the class time 
 -------------------------------------------------------------------------------------------------------------------
 Meeting No.: [405]
-Meeting Date : 19-11-2020
-Meeting Time :  10 am (during the class time) 
-Meeting Venue : BBB 
-Attendees : all members except Amit 
-Absent Members : Amit Chakma 
+Meeting Date: 19-11-2020
+Meeting Time:  10 am (during the class time) 
+Meeting Venue: BBB 
+Attendees: all members except Amit 
+Absent Members: Amit Chakma 
 
-Agenda Details : 
-1- smart home new functinality. 
-
-
-Meeting Minutes : 
-
-1- Brainstrom ideas regarding to smart home doing different functinality. 
+Agenda Details: 
+1- smart home new functionality. 
 
 
-Actions plan & Assigned to &deadline: brainstorming on the ideas from each team member ,task [402] new idea 
+Meeting Minutes: 
+
+1- Brainstorm ideas regarding to smart home doing different functionality. 
 
 
-Next meeting will be on : Saturday 21-11-2020 at 12 . 
+Actions plan & Assigned to &deadline: brainstorming on the ideas from each team member, task [402] new idea 
+
+
+Next meeting will be on Saturday 21-11-2020 at 12. 
 
 
 -------------------------------------------------------------------------------------------------------------------
 
 Meeting No.: [406]
-Meeting Date : 21-11-2020
-Meeting Time :  12 noon 
-Meeting Venue : online -google meet 
-Attendees : all members 
-Absent Members : ------
+Meeting Date: 21-11-2020
+Meeting Time:  12 noon 
+Meeting Venue: online -google meet 
+Attendees: all members 
+Absent Members: ------
 
-Agenda Details : 
-1- Discuss the ideas after individual brainstorm .
+Agenda Details: 
+1- Discuss the ideas after individual brainstorm.
 
 
-Meeting Minutes : 
-1- Ideas inside the home :
+Meeting Minutes: 
+1- Ideas inside the home:
 
 -smart door lock 
 -sd^2
 -smart cabinet
 -smart oven
--smart vacum cleaner .
+-smart vacuum cleaner.
 -self cleaning toilet. 
 
-Ideas outside the home : 
+Ideas outside the home: 
 - smart farm 
 - smart irrigation
--smart lawn moer .
+-smart lawn mower.
 
-Challanges :
--appliances compitabilites . 
--Communication protocols . 
+Challenges:
+-appliances compatibilities. 
+-Communication protocols. 
 
-Ideas : 
--Universal device that can connect all appliances ,nevertheless ,the brand ,types to control it via one App.
+Ideas: 
+-Universal device that can connect all appliances, nevertheless, the brand, types to control it via one App.
 
 Actions plan & Assigned to &deadline: Confirm about the communications protocols 
 
 
-Next meeting will be on : 22-11-2020 ...at 11 am .
+Next meeting will be on: 22-11-2020 ...at 11 am.
 
 
 -------------------------------------------------------------------------------------------------------------------
 
 Meeting No.: [407]
-Meeting Date : 22-11-2020
-Meeting Time :  11 am 
-Meeting Venue : google meet 
-Attendees : all members 
-Absent Members : 
+Meeting Date: 22-11-2020
+Meeting Time:  11 am 
+Meeting Venue: google meet 
+Attendees: all members 
+Absent Members: 
 
-Agenda Details : 
-1- Discuss the adv & dis adv of the communications protocols .
-2-agreed on 2 main ideas to present next lab :
+Agenda Details: 
+1- Discuss the adv & dis adv of the communications protocols.
+2-agreed on 2 main ideas to present next lab:
 
 1- Unified device using new communication protocol.
-2- smart home ...2nd edition (after adding the new features) .
+2- smart home ...2nd edition (after adding the new features).
 Inside the home:
 -smart lock
 -smart oven
--smart vacum cleaner .
+-smart vacuum cleaner.
 -self cleaning toilet. 
 
-outside the home : 
+outside the home: 
 - smart farm (smart irrigation).
--smart lawn moer .
+-smart lawn mower.
 
-Meeting Minutes : 
--Share the tasks : 
+Meeting Minutes: 
+-Share the tasks: 
 
 1- Identify disadvantages of the current smart home approaches....old PPT + update to suit the new ideas ......
 - Unified device using new communication protocol.
-- smart home ...2nd edition (after adding the new features) .
+- smart home ...2nd edition (after adding the new features).
 ..... Vincent 25-11-2020 on Wed.
 
-the rest : Deadline : 24-11-2020 on Tuesday 12 midnight 
+the rest: Deadline: 24-11-2020 on Tuesday 12 midnight 
 
-2- identify new functionalities to be considered in a smart home .
-challenges/requirements .
-2.1 Idea 1 ...Miguel (the table ) 
-2.2 Idea 2 (smart home with new feature ).......Charles 
+2- identify new functionalities to be considered in a smart home.
+challenges/requirements.
+2.1 Idea 1 ...Miguel (the table) 
+2.2 Idea 2 (smart home with new feature) .......Charles 
 
- 3-Develop a first prototype of your smart home system  ( component diagram ) : 
+ 3-Develop a first prototype of your smart home system (component diagram): 
  3.1 Idea 1 ...Marwa 
- 3.2 Idea 2 ....Amit 
+ 3.2 Idea 2 .... Amit 
  
 4- Create a raw 2D prototype
 4.1 Idea 1 ...Abeeb 
@@ -231,41 +231,41 @@ challenges/requirements .
 
 
 Actions plan & Assigned to &deadline: 
-all the team member should pass thier task to Vinent to collect them on one PDF file +upload them.
-all  team members uplaod thier task on the github on the created 2 folders ,named Idea 1 ,Idea 2 . 
+all the team member should pass their task to Vincent to collect them on one PDF file +upload them.
+all team members upload their task on the GitHub on the created 2 folders, named Idea 1, Idea 2. 
 
 
-Next meeting will be on : during the next class 
+Next meeting will be on during the next class 
 
 
 -------------------------------------------------------------------------------------------------------------------
 
 Meeting No.: [408]
-Meeting Date : 26.11.20
-Meeting Time : 11:00
-Meeting Venue : During the Lab
-Attendees : All
-Absent Members : None 
+Meeting Date: 26.11.20
+Meeting Time: 11:00
+Meeting Venue: During the Lab
+Attendees: All
+Absent Members: None 
 
-Agenda Details : 
+Agenda Details: 
 1- Discuss ideas that we presented to the Professor
 
 
-Meeting Minutes : 
+Meeting Minutes: 
 
 1. Smart socket - Abeeb
 2. Smart oven - Charles
 3. Smart sensors to know where you are - Mike
 4. Personal assistance - Amit
-5. Smart home securiry - Marwa
-6. Smart home entertaintment - Vincent
+5. Smart home security - Marwa
+6. Smart home entertainment - Vincent
 
 
 Actions plan & Assigned to &deadline: 
-Each member has to define advantages and disadvantages of his/her selected task
+Each member must define advantages and disadvantages of his/her selected task
 
 
-Next meeting will be on : 
+Next meeting will be on: 
 https://meet.google.com/mms-tate-kuc
 28.11.20 at 11:30 am.
 
@@ -274,203 +274,205 @@ https://meet.google.com/mms-tate-kuc
 
 -------------------------------------------------------------------------------------------------------------------
 Meeting No.: [409]
-Meeting Date : 28.11.20
-Meeting Time : 11:30 am 
-Meeting Venue : google meet online
-Attendees : All
-Absent Members : None 
+Meeting Date: 28.11.20
+Meeting Time: 11:30 am 
+Meeting Venue: google meet online
+Attendees: All
+Absent Members: None 
 
-Agenda Details : 
-- Discuss the disadvantages and Adv. of ideas as followed :
+Agenda Details: 
+- Discuss the disadvantages and Adv. of ideas as followed:
 1. Smart socket - Abeeb 
 2. Smart oven - Charles
 3. Smart sensors to know where you are - Mike
 4. Personal assistance - Amit
-5. Smart home securiry - Marwa
-6. Smart home entertaintment - Vincent
+5. Smart home security - Marwa
+6. Smart home entertainment - Vincent
 
 
-Meeting Minutes : 
-Agreed to work on one idea : Smart home securiry
-Share the task according to the following :
+Meeting Minutes: 
+Agreed to work on one idea: Smart home security
+Share the task according to the following:
 
 
 1-identified disadvantages and raw prototype...... Task 409-1....Abeeb  
 
  
-2- Precise environmental impact Use Class diagrams to make the environmental entities (weather, persons, other systems, regulations, …) clear as well as the relation to the system to be developed (your Smart Home).... Mike ...Task 409-2
+2- Precise environmental impact Use Class diagrams to make the environmental entities (weather, persons, other systems, regulations, …) clear as well as the relation to the system to be developed (your Smart Home) .... Mike ...Task 409-2
 
 
-3-Make the interface clear (including an iteration with sequence diagram – scenarios).... Identify the to be realized scenarios....Amit ...Task 409-3
+3-Make the interface clear (including an iteration with sequence diagram – scenarios) .... Identify the to be realized scenarios.... Amit ...Task 409-3
 
 
-4- Specify the scenarios with the help of use case diagrams....Marwa  ...Task 409-4
+4- Specify the scenarios with the help of use case diagrams.... Marwa ...Task 409-4
 
-5- What kind of user interaction is required (users, other systems, …)Again use sequence diagrams .....Charles ...Task 409-5
+5- What kind of user interaction is required (users, other systems, …) Again, use sequence diagrams .... Charles ...Task 409-5
 
-6- activity diagrams to concretizethe interaction (consider a possible update / influence of the interface between your smart home and the environment).
+6- activity diagrams to concretize the interaction (consider a possible update / influence of the interface between your smart home and the environment).
 ...Vincent ...Task 409-6 
 
 
 Actions plan & Assigned to &deadline: 
-Do the Tasks and meet to discuss it 
+To do the Tasks and meet to discuss it 
 
-Next meeting will be on : Tuesday , Dec 1st , at 2 pm .
+Next meeting will be on Tuesday, Dec 1st, at 2 pm.
 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 410 
-Meeting Date : dec 1st ,2020
-Meeting Time :  2 pm 
-Meeting Venue : google meet 
-Attendees : all members except Amit 
-Absent Members : Amit Chakma 
+Meeting Date: dec 1st ,2020
+Meeting Time:  2 pm 
+Meeting Venue: google meet 
+Attendees: all members except Amit 
+Absent Members: Amit Chakma 
 
-Agenda Details : 
-1-  Dischusing the tasks to finialize the PPT for next lab. 
+Agenda Details: 
+1- Discussing the tasks to finalize the PPT for next lab. 
 
-Meeting Minutes : 
-agreed on : 
+Meeting Minutes: 
+agreed on: 
 
-First security level : Fingerprint 
-Second security level : either the NFC sensor or  saved PIN  code via keypad
+First security level: Fingerprint 
+Second security level: either the NFC sensor or saved PIN code via keypad
 
 Camera+ speaker and Microphone 
  
 -Owner entering the house 
 
 1- fingerprint …Obligatory 
-2- either use NFC sensor  , generate a code for himself or use the saved pin code on the database 
+2- either use NFC sensor, generate a code for himself or use the saved pin code on the database 
 
-OR  deactive the system and enter manually 
+OR deactivate the system and enter manually 
 
 
--Guest : 
+-Guest: 
 1- home owner is inside the home
 The guest press bell 
 The owner will see the guest through the camera 
-The owner confirm the guest 
-The owner open the door for the guest 
+The owner confirms the guest 
+The owner opens the door for the guest 
 
 
 2- not at home
 
 The guest press bell 
 The owner will see the guest through the camera 
-The owner confirm the guest 
+The owner confirms the guest 
 Request a pin code and send it to the guest 
-The guest unlock the door 
+The guest unlocks the door 
 
--Someone trying to enter : 
+-Someone trying to enter: 
 
 1- the system will send SOS to the owner 
 2- house owner see via the camera 
 3- can speak with person via speaker and microphone 
-4- activate alarm system .
+4- activate alarm system.
 
 
 Actions plan & Assigned to &deadline: finalize the tasks and have a short meeting 
 
 
-Next meeting will be on : Dec2 , at 3:00pm
+Next meeting will be on: Dec2, at 3:00pm
 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date : 
-Meeting Time :  
-Meeting Venue : 
-Attendees : 
-Absent Members : 
+Meeting No.: 411
+Meeting Date: Dec 2
+Meeting Time: 15:30
+Meeting Venue: Google meet
+Attendees: All members
+Absent Members: None
 
-Agenda Details : 
+Agenda Details: 
+1- Review the current progress of the group
+
+
+Meeting Minutes: 
+1- Discuss about the progress of each member of the group
+2- Correct and finish all the required tasks
+
+
+Actions plan & Assigned to &deadline: 
+Consolidate all the work and upload it to GitHub
+
+
+Next meeting will be on December 3rd at 10:00
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
+
+Agenda Details: 
 1- 
 
 
-Meeting Minutes : 
+Meeting Minutes: 
 1-
 
 
 Actions plan & Assigned to &deadline: 
 
 
-Next meeting will be on : 
+Next meeting will be on: 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
-Meeting Date : 
-Meeting Time :  
-Meeting Venue : 
-Attendees : 
-Absent Members : 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
 
-Agenda Details : 
+Agenda Details: 
 1- 
 
 
-Meeting Minutes : 
+Meeting Minutes: 
 1-
 
 
 Actions plan & Assigned to &deadline: 
 
 
-Next meeting will be on : 
+Next meeting will be on: 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
-Meeting Date : 
-Meeting Time :  
-Meeting Venue : 
-Attendees : 
-Absent Members : 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
 
-Agenda Details : 
+Agenda Details: 
 1- 
 
 
-Meeting Minutes : 
+Meeting Minutes: 
 1-
 
 
 Actions plan & Assigned to &deadline: 
 
 
-Next meeting will be on : 
+Next meeting will be on: 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
-Meeting Date : 
-Meeting Time :  
-Meeting Venue : 
-Attendees : 
-Absent Members : 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
 
-Agenda Details : 
+Agenda Details: 
 1- 
 
 
-Meeting Minutes : 
+Meeting Minutes: 
 1-
 
 
 Actions plan & Assigned to &deadline: 
 
 
-Next meeting will be on : 
---------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date : 
-Meeting Time :  
-Meeting Venue : 
-Attendees : 
-Absent Members : 
-
-Agenda Details : 
-1- 
-
-
-Meeting Minutes : 
-1-
-
-
-Actions plan & Assigned to &deadline: 
-
-
-Next meeting will be on : 
+Next meeting will be on: 
 
