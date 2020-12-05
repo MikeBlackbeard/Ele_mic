@@ -396,6 +396,43 @@ Consolidate all the work and upload it to GitHub
 
 Next meeting will be on December 3rd at 10:00
 --------------------------------------------------------------------------------------------------------------------
+Meeting No.: 412 
+Meeting Date: 5-12-2020
+Meeting Time:  13 UHR
+Meeting Venue: google meet 
+Attendees: all 
+Absent Members: ---
+
+Agenda Details: 
+Discussing and share the tasks :
+
+1- Identify the required components of the system to be developed (your smart home system)
+E.g. sensors to measure temperature, …a communication channel to received required
+information from an other system .....Charles ...Task 412.1
+
+
+2- Focus on the general structure and identify if it fulfills your requirements
+ E.g. it is extensible and that you can add further sensors without updating the complete
+system.....412.2 ...Vincent 
+
+
+3- structure, Refine your system architecture to the concrete required classes of your smart home......412.3 Abeeb 
+
+
+4- Behavior, interaction between the system entities ( State M/c  Diagram) 2 . .....412.4 Marwa & Mike & Amit 
+
+
+
+
+Meeting Minutes: 
+
+1- share and discussed the tasks 
+
+Actions plan & Assigned to &deadline: 
+
+work on each tasks and meet on Monday 7-12-2020  at 4 pm. 
+ 
+--------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
 Meeting Time:  
@@ -415,6 +452,108 @@ Actions plan & Assigned to &deadline:
 
 
 Next meeting will be on: 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
+
+Agenda Details: 
+1- 
+
+
+Meeting Minutes: 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on: 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
+
+Agenda Details: 
+1- 
+
+
+Meeting Minutes: 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on: 
+
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
+
+Agenda Details: 
+1- 
+
+
+Meeting Minutes: 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on: 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
+
+Agenda Details: 
+1- 
+
+
+Meeting Minutes: 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on: 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 
+Meeting Date: 
+Meeting Time:  
+Meeting Venue: 
+Attendees: 
+Absent Members: 
+
+Agenda Details: 
+1- 
+
+
+Meeting Minutes: 
+1-
+
+
+Actions plan & Assigned to &deadline: 
+
+
+Next meeting will be on: 
+
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
