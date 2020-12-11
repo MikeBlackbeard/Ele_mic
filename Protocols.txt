@@ -433,25 +433,34 @@ Actions plan & Assigned to &deadline:
 work on each tasks and meet on Monday 7-12-2020  at 4 pm. 
  
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
+Meeting No.: 413 
+Meeting Date: 11-12-2020
+Meeting Time:  10 am 
+Meeting Venue: google meet
+Attendees: all members
+Absent Members: ----
 
 Agenda Details: 
-1- 
+1- Discussed the activity , Class,deployment and state machine diagrams and the corrections. 
 
 
 Meeting Minutes: 
-1-
+1- Discussed about the class diagram and coding it to c++.
 
 
 Actions plan & Assigned to &deadline: 
-
+Share the text regarding to the following : 
+1- Deployment diagram and modify the activity diagram .....Vincent 413.1
+2- Resident class to c++ ....Mike 413.2
+3-create a function for strong password...Marwa 413..3
+4-Create a function for strong PIncode ...Amit 413.4 
+5- create a two func to check the code(2nd secuirty level ) , password(app) is correct(Boolean) ....Charles 413.5
+6- Update the class diagram regarding to new function ....Abeeb 413.6
+Next discuss : Finialize the resident class and discuss the SD^2 class .
 
 Next meeting will be on: 
+ 17-12-2020 .....Tuesday at 2:30 pm  
+
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
