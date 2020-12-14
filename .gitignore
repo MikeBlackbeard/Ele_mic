@@ -1,4 +1,4 @@
-.DS_Store
+*.DS_Store
 # Prerequisites
 *.d
 
@@ -32,14 +32,14 @@
 *.out
 *.app
 
-.db
-.ipch
-.ik
-.pdb
-.sln
-.recipe
-.log
-.tlog
-.lastbuildstate
-.filters
-.user
+*.db
+*.ipch
+*.ik
+*.pdb
+*.sln
+*.recipe
+*.log
+*.tlog
+*.lastbuildstate
+*.filters
+*.user
