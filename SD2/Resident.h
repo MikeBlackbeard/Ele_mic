@@ -1,6 +1,6 @@
 #pragma once
 #include<iostream>
-
+#include<string>
 
 class Resident
 {
@@ -17,7 +17,8 @@ public:
 	void changeUniqueCode();
 	void changeNFCCode();
 	void deactivateSystem();
-	void createPassword();
+    void createPassword();
+    //set new password and check password strength
 	void changePassword();
 	void createUserName();
 	void alowVisitor();

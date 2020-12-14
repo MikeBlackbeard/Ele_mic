@@ -1,6 +1,6 @@
 #include "Resident.h"
-
-
+#include<string>
+using namespace std;
 //Create a Resident user
 Resident::Resident() {
 	std::cout << "New user created" << std::endl;
@@ -23,10 +23,32 @@ void Resident::addFingerPrint() {
 	std::cin >> fingerPrint;
 }
 
-void Resident::createPassword() {
-	std::cout << "please enter your new pasword: ";
-	std::cin >> password;
+void Resident : createPassword();
+{
+  int l_case=0, u_case=0, digit=0;//flags
+  string str; //password
+  cout<<"Enter password,min 8 digits and contain at least one lowercase ,one uppercase ,one number"<<endl;
+  
+  cin>>str;
+  int l=str.length(); //length
+  
+  for(int i=0;i<l;i++)  //check lowe,upper,digit
+  {
+    if(islower(str[i]))
+      l_case=1;
+    if(isupper(str[i]))
+      u_case=1;
+    if(isdigit(str[i]))
+      digit=1;
+  
+  }
+  
+  if(l_case && u_case && digit && l>=8)
+    cout<<"Strong password."<<endl;
+  else
+    cout<<"Weak password"<<endl;
 }
+
 
 void Resident::changeUniqueCode() {
 	if (uniqueCode == 0) {
