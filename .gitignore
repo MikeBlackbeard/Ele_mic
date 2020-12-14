@@ -43,3 +43,6 @@
 *.lastbuildstate
 *.filters
 *.user
+*.suo
+*.ilk
+*.idb
