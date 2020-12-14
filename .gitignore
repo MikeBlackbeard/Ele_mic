@@ -31,3 +31,15 @@
 *.exe
 *.out
 *.app
+
+.db
+.ipch
+.ik
+.pdb
+.sln
+.recipe
+.log
+.tlog
+.lastbuildstate
+.filters
+.user
