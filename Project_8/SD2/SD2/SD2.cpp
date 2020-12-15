@@ -7,16 +7,16 @@ int main()
     bool run = true;
     do {
         system("cls");
-        std::cout << "      ***************************************" << std::endl;
-        std::cout << "      ***            MAIN MENU            ***" << std::endl;
-        std::cout << "      ***************************************" << std::endl << std::endl;
-        std::cout << "            1. User menu." << std::endl;
-        std::cout << "            2. To the door" << std::endl;
-        std::cout << "            3. Exit." << std::endl;
-        std::cout << "            Select an option: ";
-        std::string menuOption1;
-        std::cin >> menuOption1;
-        std::cin.clear();
+        cout << "      ***************************************" << endl;
+        cout << "      ***            MAIN MENU            ***" << endl;
+        cout << "      ***************************************" << endl << endl;
+        cout << "            1. User menu." << endl;
+        cout << "            2. To the door" << endl;
+        cout << "            3. Exit." << endl;
+        cout << "            Select an option: ";
+        string menuOption1;
+        cin >> menuOption1;
+        cin.clear();
         if (menuOption1.length() == 1) {
             switch (menuOption1[0])
             {

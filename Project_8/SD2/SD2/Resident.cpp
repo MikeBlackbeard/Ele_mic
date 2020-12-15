@@ -1,7 +1,7 @@
 #include "Resident.h"
 
 Resident::Resident() {
-	std::cout << "New Resident created";
+	cout << "New Resident created";
 	createUserName();
 	createPassword();
 	createPIN();
@@ -10,7 +10,7 @@ Resident::Resident() {
 }
 
 Resident::~Resident() {
-	std::cout << "Resident distructed";
+	cout << "Resident distructed";
 }
 
 void Resident::createUserName() {
@@ -21,7 +21,33 @@ void Resident::createUserName() {
 void Resident::createPassword() {
 	bool passok = false;
 	do {
-		std::cout << "Enter your password: ";
+			int l_case = 0, u_case = 0, digit = 0;//flags
+			string str; //password
+			cout << "Enter password,min 8 digits and contain at least one lowercase ,one uppercase ,one number" << endl;
+			cin >> str;
+			int l = str.length(); //length
+			for (int i = 0; i < l; i++)  //check lowe,upper,digit
+			{
+				if (islower(str[i]))
+					l_case = 1;
+				if (isupper(str[i]))
+					u_case = 1;
+				if (isdigit(str[i]))
+					digit = 1;
+			}
+			if (l_case && u_case && digit && l >= 8) {
+				cout << "Strong password." << endl;
+				std::cout << "Re-enter your password: ";
+				std::string secondAtempt;
+				std::cin >> secondAtempt;
+				if (str == secondAtempt) {
+					passok = true;
+				}
+			}	
+			else
+				cout << "Weak password" << endl;
+
+		/*std::cout << "Enter your password: ";
 		std::string firstAtempt;
 		std::cin >> firstAtempt;
 		std::cout << "Re-enter your password: ";
@@ -33,28 +59,45 @@ void Resident::createPassword() {
 		}
 		else {
 			passok = false;
-		}
+		}*/
 	} while (!passok);
 }
 
 void Resident::createPIN() {
 	bool PINok = false;
 	do {
-		std::cout << "Enter your PIN: ";
+		std::cout << "Enter your PIN:  (6-digit long) ";
 		std::string firstAtempt;
 		std::cin >> firstAtempt;
-		std::cout << "Re-enter your PIN: ";
-		std::string secondAtempt;
-		std::cin >> secondAtempt;
-		if (firstAtempt == secondAtempt) {
-			for (int i = 0; i < 6; i++) {
-				PIN[i] = firstAtempt[i];
+		if (firstAtempt.size() == 6) {
+			if (std::all_of(firstAtempt.begin(), firstAtempt.end(), isdigit)) {
+				if (firstAtempt[0] == firstAtempt[1] && firstAtempt[0] == firstAtempt[2] && firstAtempt[0] == firstAtempt[3]
+					&& firstAtempt[0] == firstAtempt[4] && firstAtempt[0] == firstAtempt[5])
+					std::cout << "Please use different numbers in your PIN. ";
+				else {
+					if ((firstAtempt[0] == firstAtempt[1] + 1 && firstAtempt[0] == firstAtempt[2] + 2 && firstAtempt[0] == firstAtempt[3] + 3
+						&& firstAtempt[0] == firstAtempt[4] + 4 && firstAtempt[0] == firstAtempt[5] + 5) ||
+						(firstAtempt[0] == firstAtempt[1] - 1 && firstAtempt[0] == firstAtempt[2] - 2 && firstAtempt[0] == firstAtempt[3] - 3
+							&& firstAtempt[0] == firstAtempt[4] - 4 && firstAtempt[0] == firstAtempt[5] - 5))
+						std::cout << "Please do not use consequtive numbers.";
+					else {
+						std::cout << "Re-enter your PIN: ";
+						std::string secondAtempt;
+						std::cin >> secondAtempt;
+						if (firstAtempt == secondAtempt) {
+							for (int i = 0; i < 6; i++) {
+								PIN[i] = firstAtempt[i];
+							}
+							PINok = true;
+						}
+					}				
+				}				
 			}
-			PINok = true;
+			else
+				std::cout << "Please use only digitis (0 to 9)";
 		}
-		else {
-			PINok = false;
-		}
+		else
+			std::cout << "The PIN has to be 6-digit long.";
 	} while (!PINok);
 }
 

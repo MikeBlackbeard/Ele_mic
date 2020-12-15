@@ -1,16 +1,18 @@
 #pragma once
 #include<iostream>
 #include<conio.h>
+#include <algorithm>
 
+using namespace std;
 
 class Resident
 {
 private:
 	char fingerprint;
-	std::string NFC;
+	string NFC;
 	char PIN[6];
-	std::string password;
-	std::string userName;
+	string password;
+	string userName;
 
 public:
 	Resident();
@@ -25,11 +27,11 @@ public:
 	void createNFC();
 	void createFingerPrint();
 
-	bool checkPassword(std::string passAtempt);
+	bool checkPassword(string passAtempt);
 	bool checkPIN(char PINAtempt[6]);
-	bool checkNFC(std::string NFCAtempt);
+	bool checkNFC(string NFCAtempt);
 	bool checkFingerPrint(char fingerAtempt);
 
-	std::string printResident();
+	string printResident();
 };
 
