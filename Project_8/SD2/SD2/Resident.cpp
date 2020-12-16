@@ -88,8 +88,8 @@ void Resident::createPIN() {
 							PIN = firstAtempt;
 							PINok = true;
 						}
-					}				
-				}				
+					}
+				}
 			}
 			else
 				cout << "Please use only digitis (0 to 9)";
@@ -108,16 +108,16 @@ void Resident::createFingerPrint() {
 	std::cout << "Place your finger on the sensor: ";
 	std::cin >> fingerprint;
 }
-
-bool Resident::checkPassword(std::string passAtempt) {
-	if (passAtempt == password)
+bool Resident::checkPIN(string PINAtempt) {
+	if (PINAtempt == PIN)
 		return true;
 	else
 		return false;
 }
 
-bool Resident::checkPIN(string PINAtempt) {
-	if (PINAtempt == PIN)
+
+bool Resident::checkPassword(std::string passAtempt) {
+	if (passAtempt == password)
 		return true;
 	else
 		return false;
@@ -168,6 +168,6 @@ void Resident::changeNFC() {
 		std::cout << "Wrong NFC chip. ";
 }
 
-string Resident::printResident() {
+std::string Resident::printResident() {
 	return userName;
 }
