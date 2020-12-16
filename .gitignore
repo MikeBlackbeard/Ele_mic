@@ -47,3 +47,6 @@
 *.ilk
 *.idb
 *.json
+*.db-shm
+*.db-wal
+*.opendb

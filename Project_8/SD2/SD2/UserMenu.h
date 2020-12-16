@@ -53,11 +53,9 @@ void userMenu(DS2HouseResidents* MyHouse) {
 void doorAccess(DS2HouseResidents* MyHouse) {
 	char fingerRead;
 	char toContinue;
-	
-
 	bool runDoor = true;
 	do {
-		//system("cls");
+		system("cls");
 		cout << "Finger: a-z     -     Doorbell:  Espacebar        -       Atempt to open: Del.        -       Back: Esc" << std::endl
 			<< "Select an action";
 		char action = _getch();
@@ -69,16 +67,14 @@ void doorAccess(DS2HouseResidents* MyHouse) {
 				cout << "Please enter your PIN. ";
 				string PAtempt;
 				cin >> PAtempt;
-				if (PAtempt.length() == 6) {
-					if (MyHouse->VerifyResidentPIN(userAtempt, PAtempt)) {
-						bool OpenDoor = true;
-						cout << "The door is open";
-						char b = _getch();
-					}
+				if (MyHouse->VerifyResidentPIN(userAtempt, PAtempt)) {
+					bool OpenDoor = true;
+					cout << "The door is open";
+					toContinue = _getch();
 				}
 			}
 		}
-		else if (action == 27)
+		else if (action == 27) 
 			runDoor = false;
 	} while (runDoor);
 }
