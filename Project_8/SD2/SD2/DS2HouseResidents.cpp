@@ -127,7 +127,7 @@ int DS2HouseResidents::FindResident(char FingerRead) {
 	return -1;
 }
 
-bool DS2HouseResidents::VerifyResidentPIN(int NResident, char enterPIN[6]) {
+bool DS2HouseResidents::VerifyResidentPIN(int NResident, string enterPIN) {
 	if (resident[NResident].checkPIN(enterPIN))
 		return true;
 	return false;

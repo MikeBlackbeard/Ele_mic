@@ -85,9 +85,7 @@ void Resident::createPIN() {
 						std::string secondAtempt;
 						std::cin >> secondAtempt;
 						if (firstAtempt == secondAtempt) {
-							for (int i = 0; i < 6; i++) {
-								PIN[i] = firstAtempt[i];
-							}
+							PIN = firstAtempt; 
 							PINok = true;
 						}
 					}				
@@ -118,7 +116,7 @@ bool Resident::checkPassword(std::string passAtempt) {
 		return false;
 }
 
-bool Resident::checkPIN(char PINAtempt[6]) {
+bool Resident::checkPIN(string PINAtempt) {
 	if (PINAtempt == PIN)
 		return true;
 	else
