@@ -168,6 +168,6 @@ void Resident::changeNFC() {
 		std::cout << "Wrong NFC chip. ";
 }
 
-std::string Resident::printResident() {
+string Resident::printResident() {
 	return userName;
 }
