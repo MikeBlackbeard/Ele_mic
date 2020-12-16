@@ -10,7 +10,7 @@ class Resident
 private:
 	char fingerprint;
 	string NFC;
-	char PIN[6];
+	string PIN;
 	string password;
 	string userName;
 
@@ -28,7 +28,7 @@ public:
 	void createFingerPrint();
 
 	bool checkPassword(string passAtempt);
-	bool checkPIN(char PINAtempt[6]);
+	bool checkPIN(string PINAtempt);
 	bool checkNFC(string NFCAtempt);
 	bool checkFingerPrint(char fingerAtempt);
 

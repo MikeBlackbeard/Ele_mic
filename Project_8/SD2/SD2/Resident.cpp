@@ -66,38 +66,36 @@ void Resident::createPassword() {
 void Resident::createPIN() {
 	bool PINok = false;
 	do {
-		std::cout << "Enter your PIN:  (6-digit long) ";
-		std::string firstAtempt;
-		std::cin >> firstAtempt;
+		cout << "Enter your PIN:  (6-digit long) ";
+		string firstAtempt;
+		cin >> firstAtempt;
 		if (firstAtempt.size() == 6) {
-			if (std::all_of(firstAtempt.begin(), firstAtempt.end(), isdigit)) {
+			if (all_of(firstAtempt.begin(), firstAtempt.end(), isdigit)) {
 				if (firstAtempt[0] == firstAtempt[1] && firstAtempt[0] == firstAtempt[2] && firstAtempt[0] == firstAtempt[3]
 					&& firstAtempt[0] == firstAtempt[4] && firstAtempt[0] == firstAtempt[5])
-					std::cout << "Please use different numbers in your PIN. ";
+					cout << "Please use different numbers in your PIN. ";
 				else {
 					if ((firstAtempt[0] == firstAtempt[1] + 1 && firstAtempt[0] == firstAtempt[2] + 2 && firstAtempt[0] == firstAtempt[3] + 3
 						&& firstAtempt[0] == firstAtempt[4] + 4 && firstAtempt[0] == firstAtempt[5] + 5) ||
 						(firstAtempt[0] == firstAtempt[1] - 1 && firstAtempt[0] == firstAtempt[2] - 2 && firstAtempt[0] == firstAtempt[3] - 3
 							&& firstAtempt[0] == firstAtempt[4] - 4 && firstAtempt[0] == firstAtempt[5] - 5))
-						std::cout << "Please do not use consequtive numbers.";
+						cout << "Please do not use consequtive numbers.";
 					else {
-						std::cout << "Re-enter your PIN: ";
-						std::string secondAtempt;
-						std::cin >> secondAtempt;
+						cout << "Re-enter your PIN: ";
+						string secondAtempt;
+						cin >> secondAtempt;
 						if (firstAtempt == secondAtempt) {
-							for (int i = 0; i < 6; i++) {
-								PIN[i] = firstAtempt[i];
-							}
+							PIN = firstAtempt;
 							PINok = true;
 						}
 					}				
 				}				
 			}
 			else
-				std::cout << "Please use only digitis (0 to 9)";
+				cout << "Please use only digitis (0 to 9)";
 		}
 		else
-			std::cout << "The PIN has to be 6-digit long.";
+			cout << "The PIN has to be 6-digit long.";
 	} while (!PINok);
 }
 
@@ -118,7 +116,7 @@ bool Resident::checkPassword(std::string passAtempt) {
 		return false;
 }
 
-bool Resident::checkPIN(char PINAtempt[6]) {
+bool Resident::checkPIN(string PINAtempt) {
 	if (PINAtempt == PIN)
 		return true;
 	else

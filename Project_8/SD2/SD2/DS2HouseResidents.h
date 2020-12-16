@@ -16,7 +16,7 @@ public:
 	void ShowResidents();
 	void EditResident();
 	int FindResident(char FingerRead);
-	bool VerifyResidentPIN(int NResident, char enterPIN[6]);
+	bool VerifyResidentPIN(int NResident, string enterPIN);
 	bool VerifyResidentNFC(int NResident, std::string NFCAtempt);
 };
 

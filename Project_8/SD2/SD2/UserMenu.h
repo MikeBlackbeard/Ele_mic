@@ -57,24 +57,28 @@ void doorAccess(DS2HouseResidents* MyHouse) {
 
 	bool runDoor = true;
 	do {
-		system("cls");
-		std::cout << "Finger: a-z     -     Doorbell:  Espacebar        -       Atempt to open: Del.        -       Back: Esc" << std::endl
+		//system("cls");
+		cout << "Finger: a-z     -     Doorbell:  Espacebar        -       Atempt to open: Del.        -       Back: Esc" << std::endl
 			<< "Select an action";
-		char a = _getch();
-		if (a > 'a' && a < 'z') {
-			int userAtempt = MyHouse->FindResident(a);
-
-			// CONTINUE FROM HERE
-
-
+		char action = _getch();
+		if ((action >= 'a' && action <= 'z') || (action >= 'A' && action <= 'Z')) {
+			bool OpenDoor = false;
+			int userAtempt = -1;
+			userAtempt = MyHouse->FindResident(action);
+			if (userAtempt != -1) {
+				cout << "Please enter your PIN. ";
+				string PAtempt;
+				cin >> PAtempt;
+				if (PAtempt.length() == 6) {
+					if (MyHouse->VerifyResidentPIN(userAtempt, PAtempt)) {
+						bool OpenDoor = true;
+						cout << "The door is open";
+						char b = _getch();
+					}
+				}
+			}
 		}
-		switch (a)
-		{
-		case 27:
+		else if (action == 27)
 			runDoor = false;
-			break;
-		default:
-			break;
-		}
 	} while (runDoor);
 }
