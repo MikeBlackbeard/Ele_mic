@@ -462,25 +462,33 @@ Next meeting will be on:
  17-12-2020 .....Tuesday at 2:30 pm  
 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
+Meeting No.: 414
+Meeting Date: 17-12-2020
+Meeting Time: 12 noon
+Meeting Venue: Zoom 
+Attendees: all members 
 Absent Members: 
 
 Agenda Details: 
-1- 
+1- Discussing the 6 Scenarios and updating the class diagram according to that.
 
 
-Meeting Minutes: 
-1-
+Meeting Minutes:
+
+-Share the tasks so each member has a scenario to work on as the following:
+1-resident trying to access the door….414.1 Miguel   
+2- visitor is coming…Vincent ..414.2
+3- someone attempting to open the door ,start alarm…Charles...414.3
+4- Lighting the house Rooms via Menu …Room 1, Room2 ..etc (turn on, off)…Marwa ...414.4
+5- smart ventilation  , Turn on HVAC ,depend on Temp….Abeeb ...414.5
+6- Close and open the window (Motor move ) depend on Temperature ,Time …Amit ...414.6
 
 
 Actions plan & Assigned to &deadline: 
+prepare the sequence diagram for the added last 3 scenarios 
 
 
-Next meeting will be on: 
+Next meeting will be on: 21/12/2020 ...at 6 pm 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
