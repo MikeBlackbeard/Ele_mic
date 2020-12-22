@@ -5,6 +5,7 @@ int main()
 {
     DS2HouseResidents MyHouse;
     bool run = true;
+    LoadUsers(&MyHouse);
     do {
         system("cls");
         cout << "      ***************************************" << endl;

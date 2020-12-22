@@ -1,16 +1,19 @@
 #include "Resident.h"
 
 Resident::Resident() {
-	cout << "New Resident created";
-	createUserName();
-	createPassword();
-	createPIN();
-	createNFC();
-	createFingerPrint();
+	fingerprint = ' ';
 }
 
 Resident::~Resident() {
 	cout << "Resident distructed";
+}
+
+void Resident::addResident(string newUserName) {
+	userName = newUserName;
+	createPassword();
+	createPIN();
+	createNFC();
+	createFingerPrint();
 }
 
 void Resident::createUserName() {
@@ -20,46 +23,31 @@ void Resident::createUserName() {
 
 void Resident::createPassword() {
 	bool passok = false;
+	char toContinue;
 	do {
-			int l_case = 0, u_case = 0, digit = 0;//flags
-			string str; //password
-			cout << "Enter password,min 8 digits and contain at least one lowercase ,one uppercase ,one number" << endl;
-			cin >> str;
-			int l = str.length(); //length
-			for (int i = 0; i < l; i++)  //check lowe,upper,digit
-			{
-				if (islower(str[i]))
-					l_case = 1;
-				if (isupper(str[i]))
-					u_case = 1;
-				if (isdigit(str[i]))
-					digit = 1;
-			}
-			if (l_case && u_case && digit && l >= 8) {
-				cout << "Strong password." << endl;
-				std::cout << "Re-enter your password: ";
-				std::string secondAtempt;
-				std::cin >> secondAtempt;
-				if (str == secondAtempt) {
-					passok = true;
+			string passFrisrtAtempt;
+			cout << "Enter password,min 8 digits and contain at least one lowercase, one uppercase, one digit" << endl;
+			cin >> passFrisrtAtempt;
+			if (passFrisrtAtempt.length() >= 8)
+				if (any_of(passFrisrtAtempt.begin(), passFrisrtAtempt.end(), islower) &&
+					any_of(passFrisrtAtempt.begin(), passFrisrtAtempt.end(), isupper) &&
+					any_of(passFrisrtAtempt.begin(), passFrisrtAtempt.end(), isdigit)) {
+					std::cout << "Re-enter your password: ";
+					std::string secondAtempt;
+					std::cin >> secondAtempt;
+					if (passFrisrtAtempt == secondAtempt) {
+						password = passFrisrtAtempt;
+						passok = true;
+					}
 				}
-			}	
-			else
-				cout << "Weak password" << endl;
-
-		/*std::cout << "Enter your password: ";
-		std::string firstAtempt;
-		std::cin >> firstAtempt;
-		std::cout << "Re-enter your password: ";
-		std::string secondAtempt;
-		std::cin >> secondAtempt;
-		if (firstAtempt == secondAtempt) {
-			password = firstAtempt;
-			passok = true;
-		}
-		else {
-			passok = false;
-		}*/
+				else {
+					std::cout << "Your password should contain at least a lowercase, a uppercase and a digit. ";
+					toContinue = _getch();
+				}
+			else {
+				std::cout << "Your password should be at least 8 characters long. ";
+				toContinue = _getch();
+			}
 	} while (!passok);
 }
 
@@ -108,13 +96,20 @@ void Resident::createFingerPrint() {
 	std::cout << "Place your finger on the sensor: ";
 	std::cin >> fingerprint;
 }
+
+bool Resident::checkName(string nameAtempt) {
+	if (nameAtempt == userName)
+		return true;
+	else
+		return false;
+}
+
 bool Resident::checkPIN(string PINAtempt) {
 	if (PINAtempt == PIN)
 		return true;
 	else
 		return false;
 }
-
 
 bool Resident::checkPassword(std::string passAtempt) {
 	if (passAtempt == password)
@@ -170,4 +165,26 @@ void Resident::changeNFC() {
 
 std::string Resident::printResident() {
 	return userName;
+}
+
+void Resident::loadResident(char load_fingerPring, string load_NFC, string load_PIN, string load_password, string load_username) {
+	fingerprint = load_fingerPring;
+	NFC = load_NFC;
+	PIN = load_PIN;
+	password = load_password;
+	userName = load_username;
+}
+
+string Resident::saveResident() {
+	string toSave;
+	toSave = fingerprint;
+	toSave.append(" ");
+	toSave.append(NFC);
+	toSave.append(" ");
+	toSave.append(PIN);
+	toSave.append(" ");
+	toSave.append(password);
+	toSave.append(" ");
+	toSave.append(userName);
+	return toSave;	
 }

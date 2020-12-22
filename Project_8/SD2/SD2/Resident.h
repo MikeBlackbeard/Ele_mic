@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<conio.h>
+#include<fstream>
 #include <algorithm>
 
 using namespace std;
@@ -20,6 +21,7 @@ public:
 	void changePassword();
 	void changePIN();
 	void changeNFC();
+	void addResident(string newUserName);
 
 	void createPassword();
 	void createUserName();
@@ -31,7 +33,11 @@ public:
 	bool checkPIN(string PINAtempt);
 	bool checkNFC(string NFCAtempt);
 	bool checkFingerPrint(char fingerAtempt);
+	bool checkName(string nameAtept);
 
 	string printResident();
+
+	void loadResident(char load_fingerPring, string load_NFC, string load_PIN, string load_password, string load_username);
+	string saveResident();
 };
 

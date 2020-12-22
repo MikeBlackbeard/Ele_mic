@@ -10,8 +10,25 @@ DS2HouseResidents::~DS2HouseResidents() {
 }
 
 void DS2HouseResidents::AddResident() {
-	Resident newresident;
-	resident.push_back(newresident);
+	string userName;
+	std::cout << "Enter your User Name: ";
+	std::cin >> userName;
+	bool free = true;
+	for (int i = 0; i < resident.size(); i++)
+		if (resident[i].checkName(userName)) {
+			free = false;
+			break;
+		}
+	if(free){
+		Resident newresident;
+		newresident.addResident(userName);
+		resident.push_back(newresident);
+		saveDatabase();	
+	}
+	else {
+		cout << "User name already exists. ";
+		char toContinue = _getch();
+	}
 }
 
 void DS2HouseResidents::ShowResidents() {
@@ -21,9 +38,9 @@ void DS2HouseResidents::ShowResidents() {
 }
 
 void DS2HouseResidents::DeleteResident() {
-	std::cout << "please enter the User Name of the user that you want to delete: ";
-	std::string deleteuser;
-	std::cin >> deleteuser;
+	cout << "please enter the User Name of the user that you want to delete: ";
+	string deleteuser;
+	cin >> deleteuser;
 	int usertodelete = -1;
 	for (int i = 0; i < resident.size(); i++) {
 		if (deleteuser == resident[i].printResident()) {
@@ -35,10 +52,10 @@ void DS2HouseResidents::DeleteResident() {
 		bool rundelete = true;
 		char toContinue;
 		do {
-			std::cout << "The user " << resident[usertodelete].printResident() << " will be deleted." <<
+			cout << "The user " << resident[usertodelete].printResident() << " will be deleted." <<
 				"press Y to continue or press N to cancel. ";
-			std::string deleteOption;
-			std::cin >> deleteOption;
+			string deleteOption;
+			cin >> deleteOption;
 			if (deleteOption.size() == 1) {
 				switch (deleteOption[0])
 				{
@@ -54,6 +71,7 @@ void DS2HouseResidents::DeleteResident() {
 				case 'N':
 					std::cout << "Action cancelled." << std::endl << "Press any key to continue. ";
 					toContinue = _getch();
+					rundelete = false;
 					break;
 				default:
 					break;
@@ -65,6 +83,7 @@ void DS2HouseResidents::DeleteResident() {
 		std::cout << "The User Name is incorrect. \n Press any key to continue. ";
 		char a = _getch();
 	}
+	saveDatabase();
 }
 
 void DS2HouseResidents::EditResident() {
@@ -137,4 +156,14 @@ bool DS2HouseResidents::VerifyResidentNFC(int NResident, std::string NFCAtempt) 
 	if (resident[NResident].checkNFC(NFCAtempt))
 		return true;
 	return false;
+}
+
+void DS2HouseResidents::loadResident(Resident newResident) {
+	resident.push_back(newResident);
+}
+
+void DS2HouseResidents::saveDatabase() {
+	ofstream save_file("Database.txt", ios::out);
+	for (int i = 0; i < resident.size(); i++)
+		save_file << resident[i].saveResident() << endl;
 }

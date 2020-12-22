@@ -5,6 +5,24 @@
 #include "Resident.h"
 #include "DS2HouseResidents.h"
 #include <conio.h>
+#include <fstream>
+
+
+void LoadUsers(DS2HouseResidents* MyHouse) {
+	Resident newResident;
+	char load_fingerPring;
+	string load_NFC;
+	string load_PIN;
+	string load_password;
+	string load_username;
+	ifstream load_file("Database.txt");
+	while (load_file >> load_fingerPring >> load_NFC >> load_PIN >> load_password >> load_username) {
+		newResident.loadResident(load_fingerPring, load_NFC, load_PIN, load_password, load_username);
+		MyHouse->loadResident(newResident);
+	}
+}
+
+
 
 void userMenu(DS2HouseResidents* MyHouse) {
 	bool run = true;
@@ -64,7 +82,7 @@ void doorAccess(DS2HouseResidents* MyHouse) {
 			int userAtempt = -1;
 			userAtempt = MyHouse->FindResident(action);
 			if (userAtempt != -1) {
-				cout << "Please enter your PIN. ";
+				cout << "\nPlease enter your PIN. ";
 				string PAtempt;
 				cin >> PAtempt;
 				if (MyHouse->VerifyResidentPIN(userAtempt, PAtempt)) {
