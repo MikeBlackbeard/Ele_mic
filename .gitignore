@@ -36,7 +36,6 @@
 *.ipch
 *.ik
 *.pdb
-*.sln
 *.recipe
 *.log
 *.tlog
