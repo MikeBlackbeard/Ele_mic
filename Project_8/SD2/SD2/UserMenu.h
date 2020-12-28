@@ -26,7 +26,29 @@ void LoadUsers(DS2HouseResidents* MyHouse) {
 	}
 }
 
+void editUser(DS2HouseResidents* MyHouse) {
 
+
+
+
+
+
+
+
+	bool run = true;
+	char a;
+	do {
+		system("cls");
+		cout << "      ***************************************" << endl;
+		cout << "      ***            EDIT MENU            ***" << endl;
+		cout << "      ***************************************" << endl << endl;
+		cout << "            1. Chage password." << endl;
+		cout << "            2. Chage PIN." << endl;
+		cout << "            3. Change NFC." << endl;
+		cout << "            5. Return to user menu." << endl;
+		cout << "            Select an option. ";
+	} while (run);
+}
 
 void userMenu(DS2HouseResidents* MyHouse) {
 	bool run = true;
