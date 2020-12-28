@@ -533,31 +533,31 @@ Actions plan & Assigned to &deadline:
 
 
 Next meeting will be on: 
--Wednesday 23-12-2-2020 at 7pm 
+-Wednesday 28-12-2-2020 at 7pm 
 
 
 
 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
+Meeting No.: 416
+Meeting Date: 28-12-2020
+Meeting Time:  at 7 pm
+Meeting Venue: zoom online 
+Attendees: all
+Absent Members: -----
 
 Agenda Details: 
-1- 
+1- Discuss about the coding on c++.
 
 
 Meeting Minutes: 
-1-
+1-the code need to be optimize and add new classes regarding to the new scenarios added.
 
 
 Actions plan & Assigned to &deadline: 
+meet on 30-12-2020 to discuss the update on the code 
 
 
-Next meeting will be on: 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
