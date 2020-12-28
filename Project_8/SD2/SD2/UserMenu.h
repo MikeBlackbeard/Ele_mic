@@ -4,8 +4,12 @@
 #include <vector>
 #include "Resident.h"
 #include "DS2HouseResidents.h"
+#include"App.h"
 #include <conio.h>
 #include <fstream>
+#include"Resident.h"
+#include"DS2HouseResidents.h"
+using namespace std; 
 
 
 void LoadUsers(DS2HouseResidents* MyHouse) {
@@ -60,6 +64,7 @@ void userMenu(DS2HouseResidents* MyHouse) {
 			case '5':
 				run = false;
 				break;
+			
 			default:
 				break;
 			}
@@ -96,3 +101,70 @@ void doorAccess(DS2HouseResidents* MyHouse) {
 			runDoor = false;
 	} while (runDoor);
 }
+void AppAccess(Resident* r)
+{
+	App use; 
+	string n, p;
+	bool oku, okp, run;
+	do {
+		cout << "please enter userName" << endl;
+		cin >> n;
+		oku = r->checkName(n);
+		cout << "please enter password" << endl;
+		cin >> p;
+		okp = r->checkPassword(p);
+		if (oku == 1 && okp == 1)
+		{
+			bool ok = true;
+
+			do {
+				system("cls");
+				cout << "      ***************************************" << endl;
+				cout << "      ***            Room MENU            ***" << endl;
+				cout << "      ***************************************" << endl << endl;
+				cout << "            1. Create a new room." << endl;
+				cout << "            2. Access a room." << endl;
+				cout << "            3. Delete a room" << endl;
+				cout << "            4. back " << endl;
+				cout << "            Select an option. ";
+				string menuOption;
+			    cin >> menuOption;
+				string roomname;
+				cin.clear();
+				if (menuOption.length() == 1) {
+				switch (menuOption[0])
+					{
+					case '1':
+				
+						cout << "enter room name" << endl;
+						cin >> roomname; 
+						use.addRoom(roomname); 
+						break;
+					case '2':
+			
+						cout << "enter room name" << endl;
+						cin >> roomname;
+						use.logRoom(roomname);
+						break;
+	
+					case '3':
+						cout << "enter room name" << endl;
+						cin >> roomname;
+						use.deleteRoom(roomname); 
+						break;
+				
+					case '4':
+						ok = false;
+						break;
+
+					default:
+						break;
+					}
+				}
+			} while (ok);
+			run = 1;
+		}
+		else run=0;
+	} while (!run);
+
+};

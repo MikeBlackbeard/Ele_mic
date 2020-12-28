@@ -139,12 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\c++ repo\SD2\SD2\App.cpp" />
+    <ClCompile Include="..\..\..\..\..\c++ repo\SD2\SD2\Bulb.cpp" />
+    <ClCompile Include="..\..\..\..\..\c++ repo\SD2\SD2\Room.cpp" />
     <ClCompile Include="DS2HouseResidents.cpp" />
     <ClCompile Include="Resident.cpp" />
     <ClCompile Include="SD2.cpp" />
     <ClCompile Include="Visitor.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\c++ repo\SD2\SD2\App.h" />
+    <ClInclude Include="..\..\..\..\..\c++ repo\SD2\SD2\Bulb.h" />
+    <ClInclude Include="..\..\..\..\..\c++ repo\SD2\SD2\Room.h" />
     <ClInclude Include="DS2HouseResidents.h" />
     <ClInclude Include="Resident.h" />
     <ClInclude Include="UserMenu.h" />

@@ -1,11 +1,16 @@
 #include "UserMenu.h"
 
 
+
 int main()
 {
     DS2HouseResidents MyHouse;
+    Resident r;
+    App use;
+
     bool run = true;
     LoadUsers(&MyHouse);
+
     do {
         system("cls");
         cout << "      ***************************************" << endl;
@@ -13,7 +18,8 @@ int main()
         cout << "      ***************************************" << endl << endl;
         cout << "            1. User menu." << endl;
         cout << "            2. To the door" << endl;
-        cout << "            3. Exit." << endl;
+        cout << "            3. To the App." << endl;
+        cout << "            4. Exit." << endl;
         cout << "            Select an option: ";
         string menuOption1;
         cin >> menuOption1;
@@ -28,6 +34,10 @@ int main()
                 doorAccess(&MyHouse);
                 break;
             case '3':
+                AppAccess(&r);
+
+                break;
+            case '4':
                 run = false;
                 break;
             default:
