@@ -40,62 +40,62 @@ void App::EnterRoom()
 	int getRoom = FindRoomName(roomAtempt); 
 	if (getRoom != -1) //if user  found
 	{
-			cout << "you are in room :"<<roomAtempt << endl;
-			bool ok = true;
-			do {
-				system("cls");
-				cout << "      ***************************************" << endl;
-				cout << "      ***            ROOM control            ***" << endl;
-				cout << "      ***************************************" << endl << endl;
-				cout << "            1. Create a new bulb." << endl;
-				cout << "            2. Access a bulb." << endl;
-				cout << "            3. Delete a bulb" << endl;
-				cout << "            4. Create a new Window." << endl;
-				cout << "            5. Access a Window." << endl;
-				cout << "            6. Delete a Window" << endl;
-				cout << "            7. back " << endl;
-				cout << "            Select an option. ";
-				string menuOption;
-				cin >> menuOption;
-				string roomname;
-				cin.clear();
-				if (menuOption.length() == 1) {
-					switch (menuOption[0])
-					{
-					case '1':
-						roomBulb.addBulb();
-						break;
-					case '2':
-						
-						roomBulb.accessBulb();
-						break;
-
-					case '3':
-						roomBulb.deleteBulb();						
-						break;
-					/*case '4':
-						appData->AddRoom();
-						break;
-					case '5':
-						cout << "enter room name" << endl; //same, make a full function where you will ask a name, also in that function you can print all the rooms that we already have
-						cin >> roomname;
-						appData->EnterRoom(roomname);
-						break;
-
-					case '6':
-						appData->deleteRoom();
-						break;*/
-					case '7':
-						ok = false;
-						break;
-
-					default:
-						break;
-					}
+		cout << "you are in room :"<<roomAtempt << endl;
+		bool ok = true;
+		do {
+			system("cls");
+			cout << "      ***************************************" << endl;
+			cout << "      ***            ROOM control            ***" << endl;
+			cout << "      ***************************************" << endl << endl;
+			cout << "            1. Create a new bulb." << endl;
+			cout << "            2. Access a bulb." << endl;
+			cout << "            3. Delete a bulb" << endl;
+			cout << "            4. Create a new Window." << endl;
+			cout << "            5. Access a Window." << endl;
+			cout << "            6. Delete a Window" << endl;
+			cout << "            7. back " << endl;
+			cout << "            Select an option. ";
+			string menuOption;
+			cin >> menuOption;
+			string roomname;
+			cin.clear();
+			if (menuOption.length() == 1) {
+				switch (menuOption[0])
+				{
+				case '1':
+					roomBulb.addBulb();
+					break;
+				case '2':
+					roomBulb.accessBulb();
+					break;
+				case '3':
+					roomBulb.deleteBulb();						
+					break;
+				/*case '4':
+					appData->AddRoom();
+					break;
+				case '5':
+					cout << "enter room name" << endl; //same, make a full function where you will ask a name, also in that function you can print all the rooms that we already have
+					cin >> roomname;
+					appData->EnterRoom(roomname);
+					break;
+				case '6':
+					appData->deleteRoom();
+					break;*/
+				case '7':
+					ok = false;
+					break;
+				default:
+					break;
 				}
-			} while (ok);
-		} //end if that check password you can use an else to say that the password is incorrect
+			}
+		} while (ok);
 	}
+	else {
+		cout << "The room does not exist. ";
+		char toContinue = _getch();
+	}
+}
 	
 
 void App::deleteRoom() 
@@ -156,6 +156,3 @@ void App::saveRoom(Room newRoom)
 {
 	roomList.push_back(newRoom);
 }
-
-
-

@@ -181,11 +181,8 @@ void AppAccess(DS2HouseResidents* MyHouse, App* appData)
 										appData->AddRoom();
 										break;
 									case '2':
-										cout << "enter room name" << endl; //same, make a full function where you will ask a name, also in that function you can print all the rooms that we already have
-										cin >> roomname;
 										appData->EnterRoom();
 										break;
-
 									case '3':
 										appData->deleteRoom();
 										break;

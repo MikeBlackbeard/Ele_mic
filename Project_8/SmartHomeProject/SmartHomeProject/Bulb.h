@@ -16,10 +16,10 @@ private :
 public: 
 	void bulb();
 	void bulb(string newBulb);
-	bool lightOn();
-	bool lightOff(); 
+	void lightOn();
+	void lightOff(); 
 
-	bool PrintState();
+	void PrintState();
 	void EditBulbName();
 	bool checkBulb(string nameAtept);
 	string printBulb();
