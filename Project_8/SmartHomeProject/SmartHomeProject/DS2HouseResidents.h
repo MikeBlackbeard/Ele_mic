@@ -16,8 +16,11 @@ public:
 	void DeleteResident();
 	void ShowResidents();
 	void EditResident();
+
 	int FindResident(char FingerRead);
 	int FindResidentName(string nameAtepmt);
+	bool VerifyPassword(int NResident, string enterPIN);
+
 	bool VerifyResidentPIN(int NResident, string enterPIN);
 	bool VerifyResidentNFC(int NResident, std::string NFCAtempt);
 	void loadResident(Resident newResident);

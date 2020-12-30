@@ -6,7 +6,8 @@
 int main()
 {
     DS2HouseResidents MyHouse;  //In this variable we store all the information about the system, including the residents
-    App appData;  //We need to check this
+    App appData;  
+    
 
     bool run = true; // will allow the system to run in a loop until we chose to exit
     LoadUsers(&MyHouse); //Here we load all the user information that we crated the last time that we used the system

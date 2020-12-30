@@ -153,6 +153,14 @@ int DS2HouseResidents::FindResidentName(string nameAtepmt) {
 	return -1;
 }
 
+bool DS2HouseResidents::VerifyPassword(int NResident, string passwordAtempt)
+{
+		if (resident[NResident].checkPassword(passwordAtempt))
+			return true;
+		return false;
+	}
+	
+
 //The bool function retunr true is the correct or false if is not they will call a function into resident to return the value
 bool DS2HouseResidents::VerifyResidentPIN(int NResident, string enterPIN) {
 	if (resident[NResident].checkPIN(enterPIN))

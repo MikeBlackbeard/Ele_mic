@@ -10,14 +10,19 @@ using namespace std;
 class Bulb
 {
 private : 
-	int BulbID; 
+	string BulbID; 
 	bool BulbState; 
 
 public: 
-	
-	void lightOn();
-	void lightOff(); 
-	void PrintState();
-	string saveBulb(); 
+	void bulb();
+	void bulb(string newBulb);
+	bool lightOn();
+	bool lightOff(); 
+
+	bool PrintState();
+	void EditBulbName();
+	bool checkBulb(string nameAtept);
+	string printBulb();
+
 };
 

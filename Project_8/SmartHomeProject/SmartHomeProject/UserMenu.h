@@ -125,70 +125,90 @@ void doorAccess(DS2HouseResidents* MyHouse) {
 	} while (runDoor);
 }
 
-//this function needs to be checked by Marwa
+//this function needs to be checked by Marwa...Done
 void AppAccess(DS2HouseResidents* MyHouse, App* appData)
 {
-	//App* appData; // I think this should be in the main function and we should send the appData via pointer
-	string userAtempt, passwordAtempt; //try to use name of varibles that are clear for all of use,
-	//bool oku, okp, run;				   //try to avoid to use only one letter because then we can get confused
-	//do {   //chek this do, I dont find a way to exit I commented it because I think is not required
-		cout << "please enter you user name" << endl;
-		cin >> userAtempt;
-		int getUser = -1;
-		//check find user in DS2HouseResidents.cpp
-		getUser = MyHouse->FindResidentName(userAtempt);
-		//then use an if to continue, if you find the resident you ask the password
-		if (getUser != -1) //remember that -1 is not found
+	bool run = true;
+	char a;
+	do {
+		system("cls");
+		cout << "      ***************************************" << endl;
+		cout << "      ***            App MENU            ***" << endl;
+		cout << "      ***************************************" << endl << endl;
+		cout << "            1. Log in " << endl;
+		cout << "            2. Return to user menu." << endl;
+		cout << "            Select an option ";
+		string menuOption;
+		cin >> menuOption;
+		cin.clear();
+		if (menuOption.length() == 1)
 		{
-			cout << "plese enter your password";
-			cin >> passwordAtempt;
-			//use a function similar to VerifyResidentPIN
-			if (MyHouse->VerifyResidentPIN(getUser, passwordAtempt)) //change the function I put it only to example
-			{ // I move the room menu here
-				bool ok = true;
-				do {
-					system("cls");
-					cout << "      ***************************************" << endl;
-					cout << "      ***            ROOM MENU            ***" << endl;
-					cout << "      ***************************************" << endl << endl;
-					cout << "            1. Create a new room." << endl;
-					cout << "            2. Access a room." << endl;
-					cout << "            3. Delete a room" << endl;
-					cout << "            4. back " << endl;
-					cout << "            Select an option. ";
-					string menuOption;
-					cin >> menuOption;
-					string roomname;
-					cin.clear();
-					if (menuOption.length() == 1) {
-						switch (menuOption[0])
-						{
-						case '1': //to this part refer to the add resident function in line 74
-							cout << "enter room name" << endl; //do not read the name here, you will lose the data
-							cin >> roomname;
-							appData->addRoom(roomname);
-							break;
-						case '2':
-							cout << "enter room name" << endl; //same, make a full function where you will ask a name, also in that function you can print all the rooms that we already have
-							cin >> roomname;
-							appData->logRoom(roomname);
-							break;
+			string userAtempt, passwordAtempt; //user try to access the App
+			int getUser = -1;
+			bool verified = true; 
+			switch (menuOption[0])
+			{
+			case '1':
+					cout << "please enter you user name" << endl;
+					cin >> userAtempt;
+					getUser = MyHouse->FindResidentName(userAtempt); // find user in DS2HouseResidents.cpp	
+					if (getUser != -1) //if user  found
+					{
+						cout << "plese enter your password" << endl;
+						cin >> passwordAtempt;
+						if (MyHouse->VerifyPassword(getUser, passwordAtempt)) //fun to check password
+						{ //room menu
+							cout << "username and Password found" << endl;
+							bool ok = true;
+							do {
+								system("cls");
+								cout << "      ***************************************" << endl;
+								cout << "      ***            ROOM MENU            ***" << endl;
+								cout << "      ***************************************" << endl << endl;
+								cout << "            1. Create a new room." << endl;
+								cout << "            2. Access a room." << endl;
+								cout << "            3. Delete a room" << endl;
+								cout << "            4. back " << endl;
+								cout << "            Select an option. ";
+								string menuOption;
+								cin >> menuOption;
+								string roomname;
+								cin.clear();
+								if (menuOption.length() == 1) {
+									switch (menuOption[0])
+									{
+									case '1': 
+										appData->AddRoom();
+										break;
+									case '2':
+										cout << "enter room name" << endl; //same, make a full function where you will ask a name, also in that function you can print all the rooms that we already have
+										cin >> roomname;
+										appData->EnterRoom();
+										break;
 
-						case '3':
-							cout << "enter room name" << endl; //refer to the delete resident in line 78
-							cin >> roomname;
-							appData->deleteRoom(roomname);
-							break;
-						case '4':
-							ok = false;
-							break;
+									case '3':
+										appData->deleteRoom();
+										break;
+									case '4':
+										ok = false;
+										break;
 
-						default:
-							break;
-						}
-					}
-				} while (ok);
-			} //end if that check password you can use an else to say that the password is incorrect
-		} //end if that check the name of the user, you can add an else to say that the user doesn't exist
-	//} while (!run); end of the while that I commented
-};
+									default:
+										break;
+									}
+								}
+							} while (ok);
+						} //end if that check password you can use an else to say that the password is incorrect
+					} 
+
+			case '2':
+				run = false;
+				break;
+
+			default:
+				break;
+			}
+		}
+	} while (run);
+
+}
