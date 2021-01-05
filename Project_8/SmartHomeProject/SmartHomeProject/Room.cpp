@@ -1,9 +1,9 @@
 #include "Room.h"
 #include"Bulb.h"
+#include <fstream>
 
 Room::Room()
 {
-
 
 }
 
@@ -13,7 +13,6 @@ bool Room::checkRoom(string nameAtempt)
 		return true;
 	else
 		return false;
-
 }
 
 void Room::room(string newRoom)
@@ -87,7 +86,6 @@ void Room::accessBulb()
 				case '2':
 					bulb.lightOff();
 					break;
-
 				case '3':
 					bulb.PrintState();
 					break;
@@ -98,7 +96,6 @@ void Room::accessBulb()
 				case '5':
 					ok = false;
 					break;
-
 				default:
 					break;
 				}

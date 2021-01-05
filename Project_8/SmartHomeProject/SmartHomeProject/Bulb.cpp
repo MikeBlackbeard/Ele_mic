@@ -2,11 +2,13 @@
 
 
 
-void Bulb::bulb()
+Bulb::Bulb()
 {
-	BulbState = 0; 
-	BulbID = "unkown"; 
+	BulbState = false; 
+	BulbID = "unkown";
 }
+
+
 
 void Bulb::bulb(string newBulb)
 {
@@ -17,18 +19,21 @@ void Bulb::bulb(string newBulb)
 void Bulb::lightOn()
 {
 	BulbState = 1; 
-	cout << "bulb is on " << endl; 
+	cout << "bulb is on " << endl;
+	char toContinue = _getch();
 }
 
 void Bulb::lightOff()
 {
 	BulbState = 0; 
 	cout << "bulb is off " << endl;
+	char toContinue = _getch();
 }
 
 void Bulb::PrintState()
 {
 	cout << "current state is " << BulbState << endl; 
+	char toContinue = _getch();
 }
 
 void Bulb::EditBulbName()

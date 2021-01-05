@@ -146,7 +146,7 @@
     <ClCompile Include="Resident.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="SD2.cpp" />
-    <ClCompile Include="Visitor.cpp" />
+    <ClCompile Include="visitorApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
@@ -156,7 +156,7 @@
     <ClInclude Include="Resident.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="UserMenu.h" />
-    <ClInclude Include="Visitor.h" />
+    <ClInclude Include="visitorApp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

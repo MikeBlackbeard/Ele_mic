@@ -11,13 +11,15 @@
 #include <fstream>
 #include"Resident.h"
 #include"DS2HouseResidents.h"
+#include "visitorApp.h"
 
 //we include the standard library
 using namespace std; 
 
 //in this function we load the information stored the last time that we used the system (not save required since is done automatically)
 //do to refer to this function
-void LoadUsers(DS2HouseResidents* MyHouse) {
+void LoadUsers(DS2HouseResidents* MyHouse) 
+{
 	Resident newResident;
 	char load_fingerPring;
 	string load_NFC;
@@ -29,6 +31,12 @@ void LoadUsers(DS2HouseResidents* MyHouse) {
 		newResident.loadResident(load_fingerPring, load_NFC, load_PIN, load_password, load_username);
 		MyHouse->loadResident(newResident);
 	}
+}
+
+
+void LoadAppInfo(App* appData) 
+{
+
 }
 
 

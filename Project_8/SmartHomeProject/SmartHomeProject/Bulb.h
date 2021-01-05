@@ -14,7 +14,7 @@ private :
 	bool BulbState; 
 
 public: 
-	void bulb();
+	Bulb();
 	void bulb(string newBulb);
 	void lightOn();
 	void lightOff(); 

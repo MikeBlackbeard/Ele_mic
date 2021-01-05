@@ -11,6 +11,7 @@ int main()
 
     bool run = true; // will allow the system to run in a loop until we chose to exit
     LoadUsers(&MyHouse); //Here we load all the user information that we crated the last time that we used the system
+    LoadAppInfo(&appData);
 
     do { // the loop begins
         system("cls"); // Clear the screen
@@ -22,7 +23,8 @@ int main()
         cout << "            1. User menu." << endl;
         cout << "            2. To the door" << endl;
         cout << "            3. To the App." << endl;
-        cout << "            4. Exit." << endl;
+        cout << "            4. Visitor" << endl;
+        cout << "            5. Exit." << endl;
         cout << "            Select an option: ";
         string menuOption1;  //we use a string to store the option so the system wont crash
         cin >> menuOption1; //reading the user selection
@@ -40,6 +42,9 @@ int main()
                 AppAccess(&MyHouse, &appData);  //simulate the app behavior
                 break;
             case '4':
+                visitor();
+                break;
+            case '5':
                 run = false;  // we make run false so next loop wont run and we exit the program
                 break;
             default:
