@@ -19,7 +19,7 @@ void visitor()
     char tocontinue = _getch();
 }
 
-
+// This function enables the visitor to confirm the Visitor
 void confirmVisitor() {
     cout << "The owner is verifying you through the AV system" << endl;
     cout << "==>==>==>==>==>" << endl;
@@ -27,6 +27,7 @@ void confirmVisitor() {
     cout << "==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>" << endl;
 }
 
+// This function enables the visitor to confirm the owners location
 bool confirmHomeOwnerLocation() {    
     cout << "Is the owner home? " << "Please type (Y) for yes and (N) for No" << endl;
     char quest1;
@@ -89,8 +90,7 @@ bool generateAndConfirmPin() {
             cout << "Invalid input. The door remains closed. ";
             confirmUnknown();
         }
-        i++;//just add this i++ here move the read to the inside of the while function (lines 69 to 74)
-    }  //here is the problem with the infinite loop you didn't increase i 
+        i++;
 }
 
 void doorOpened(bool doorStatus) {
