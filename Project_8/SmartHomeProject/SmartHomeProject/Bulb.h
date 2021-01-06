@@ -9,7 +9,7 @@
 using namespace std; 
 class Bulb
 {
-private : 
+protected : 
 	string BulbID; 
 	bool BulbState; 
 
@@ -23,6 +23,8 @@ public:
 	void EditBulbName();
 	bool checkBulb(string nameAtept);
 	string printBulb();
+	void loadBulb( string load_BulbID, bool load_BulbState);
+
 
 };
 

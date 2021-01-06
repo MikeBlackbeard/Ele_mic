@@ -64,12 +64,11 @@ bool doorUnlocked() {
     }
 }
 
-bool generateAndConfirmPin() {
+bool generateAndConfirmPin()
+{
     srand((int)time(0));
     int r = (rand() % 10000);
     cout << "The pin sent by the owner is " << r << endl;
-
-    
     int i = 0;
     while (i < 3)
     {
@@ -91,8 +90,10 @@ bool generateAndConfirmPin() {
             confirmUnknown();
         }
         i++;
-}
 
-void doorOpened(bool doorStatus) {
+    }
+}
+void doorOpened(bool doorStatus) 
+{
     cout << "DOOR OPENED, you can enter the house";
 }

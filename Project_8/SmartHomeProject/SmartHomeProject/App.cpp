@@ -35,6 +35,7 @@ void App::EnterRoom()
 {
 	string roomAtempt; 
 	Room roomBulb;
+	char a; 
 	cout << "please enter room name" << endl;
 	cin >> roomAtempt;
 	int getRoom = FindRoomName(roomAtempt); 
@@ -50,10 +51,11 @@ void App::EnterRoom()
 			cout << "            1. Create a new bulb." << endl;
 			cout << "            2. Access a bulb." << endl;
 			cout << "            3. Delete a bulb" << endl;
-			cout << "            4. Create a new Window." << endl;
-			cout << "            5. Access a Window." << endl;
-			cout << "            6. Delete a Window" << endl;
-			cout << "            7. back " << endl;
+			cout << "            4. Bulb List" << endl;
+			cout << "            5. Create a new Window." << endl;
+			cout << "            6. Access a Window." << endl;
+			cout << "            7. Delete a Window" << endl;
+			cout << "            8. back " << endl;
 			cout << "            Select an option. ";
 			string menuOption;
 			cin >> menuOption;
@@ -71,18 +73,22 @@ void App::EnterRoom()
 				case '3':
 					roomBulb.deleteBulb();						
 					break;
-				/*case '4':
+				case '4':
+					roomBulb.showbulb();
+					a = _getch();
+					break;
+				/*case '5':
 					appData->AddRoom();
 					break;
-				case '5':
+				case '6':
 					cout << "enter room name" << endl; //same, make a full function where you will ask a name, also in that function you can print all the rooms that we already have
 					cin >> roomname;
 					appData->EnterRoom(roomname);
 					break;
-				case '6':
+				case '7':
 					appData->deleteRoom();
 					break;*/
-				case '7':
+				case '8':
 					ok = false;
 					break;
 				default:
@@ -155,4 +161,23 @@ int App::FindRoomName(string nameAtepmt)
 void App::saveRoom(Room newRoom)
 {
 	roomList.push_back(newRoom);
+}
+
+void App::ShowRoom()
+{
+	for (int i = 0; i < roomList.size(); i++) {
+		std::cout << std::endl << "Room " << i + 1 << " " << roomList[i].printRoom();
+	}
+}
+
+void App::loadRoom(Room newRoom)
+{
+	roomList.push_back(newRoom);
+}
+
+void App::saveRoomDatabase()
+{
+	ofstream save_file("App.txt", ios::out);
+	for (int i = 0; i < roomList.size(); i++)
+		save_file << roomList[i].saveRoom() << endl;
 }

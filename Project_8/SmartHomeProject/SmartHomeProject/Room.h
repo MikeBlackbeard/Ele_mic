@@ -2,6 +2,8 @@
 #include<string>
 #include"Bulb.h"
 #include<algorithm>
+#include<conio.h>
+#include<fstream>
 using namespace std;
 class Room
 {
@@ -21,6 +23,10 @@ class Room
 		void accessBulb();
 		void deleteBulb();
 		int FindBulbName(string nameAtepmt);
+		void loadRoom(string load_RoomID); 
+		void showbulb(); 
+
+
 //Amit 
 		/* Window fun
 		void addBulb();

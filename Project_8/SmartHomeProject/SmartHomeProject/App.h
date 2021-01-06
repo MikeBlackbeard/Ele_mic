@@ -7,6 +7,7 @@
 #include <vector>
 #include <conio.h>
 #include <fstream>
+
 using namespace std;
 class App:protected Resident // semicolon to inherit the protected and the public part of the resident class
 { 
@@ -18,5 +19,8 @@ public:
 	void deleteRoom();
 	int FindRoomName(string nameAtepmt);
 	void saveRoom(Room newRoom);
+	void ShowRoom();
+	void loadRoom(Room newRoom);
+	void saveRoomDatabase();
 };
 

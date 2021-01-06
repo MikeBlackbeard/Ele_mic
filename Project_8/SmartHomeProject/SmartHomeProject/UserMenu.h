@@ -36,7 +36,20 @@ void LoadUsers(DS2HouseResidents* MyHouse)
 
 void LoadAppInfo(App* appData) 
 {
-
+		Room roomList;
+		string load_RoomID;
+		Bulb load_Lamps;
+		string load_BulbID;
+		bool load_BulbState;
+		ifstream load_file("App.txt");
+		while (load_file >> load_RoomID >> load_BulbID >> load_BulbState )
+		{
+			
+			roomList. loadRoom(load_RoomID);
+			load_Lamps.loadBulb(load_BulbID,load_BulbState);
+			appData->loadRoom(roomList); 
+		}
+	
 }
 
 
@@ -176,7 +189,8 @@ void AppAccess(DS2HouseResidents* MyHouse, App* appData)
 								cout << "            1. Create a new room." << endl;
 								cout << "            2. Access a room." << endl;
 								cout << "            3. Delete a room" << endl;
-								cout << "            4. back " << endl;
+								cout << "            4. Room List" << endl;
+								cout << "            5. back " << endl;
 								cout << "            Select an option. ";
 								string menuOption;
 								cin >> menuOption;
@@ -195,6 +209,10 @@ void AppAccess(DS2HouseResidents* MyHouse, App* appData)
 										appData->deleteRoom();
 										break;
 									case '4':
+										appData->ShowRoom();
+										a = _getch();
+										break;
+									case '5':
 										ok = false;
 										break;
 

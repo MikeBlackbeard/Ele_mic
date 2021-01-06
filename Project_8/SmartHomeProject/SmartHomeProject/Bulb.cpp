@@ -59,4 +59,11 @@ string Bulb::printBulb()
 	return BulbID;
 }
 
+void Bulb::loadBulb(string load_BulbID, bool load_BulbState)
+{
+	BulbID = load_BulbID;
+	BulbState = load_BulbState;
+}
+
+
 

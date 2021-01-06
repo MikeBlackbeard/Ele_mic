@@ -17,6 +17,7 @@ bool Room::checkRoom(string nameAtempt)
 
 void Room::room(string newRoom)
 {
+
 		RoomID = newRoom;		
 
 }
@@ -25,6 +26,7 @@ string Room::saveRoom()
 {
 	string toSave;
 	toSave = RoomID;
+	toSave.append(" ");
 	return toSave;
 }
 
@@ -92,7 +94,6 @@ void Room::accessBulb()
 				case '4':
 					bulb.EditBulbName();
 					break;
-				
 				case '5':
 					ok = false;
 					break;
@@ -157,9 +158,26 @@ int Room::FindBulbName(string nameAtepmt)
 	return -1;
 }
 
+void Room::loadRoom(string load_RoomID)
+
+{
+	RoomID = load_RoomID;
+	
+}
+
+
+void Room::showbulb()
+{
+	for (int i = 0; i < Lamps.size(); i++)
+	{
+		std::cout << std::endl << "Bulb" << i + 1 << " " << Lamps[i].printBulb();
+	}
+}
+
 string Room::printRoom()
 {
 	return RoomID;
+
 }
 
 
