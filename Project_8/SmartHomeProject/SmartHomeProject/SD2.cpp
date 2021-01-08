@@ -5,6 +5,7 @@
 //Main function this is the first one that is going to run and from here.
 int main()
 {
+    srand(time(NULL));
     DS2HouseResidents MyHouse;  //In this variable we store all the information about the system, including the residents
     App appData;  
     

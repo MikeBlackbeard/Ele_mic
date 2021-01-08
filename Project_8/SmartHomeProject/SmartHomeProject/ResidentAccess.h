@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <windows.h>
+#include <time.h>
 #include "Resident.h"
 #include "DS2HouseResidents.h"
 

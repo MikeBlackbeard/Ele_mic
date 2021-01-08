@@ -104,7 +104,14 @@ int PINConf(DS2HouseResidents* MyHouse, char* action, int* userAtempt, int* fals
 }
 int newPin()
 {
-
+	string tempPIN;
+	for (int i = 0; i < 6; i++) {
+		int temp = rand() % 10;
+		char a = temp + 48;
+		tempPIN.push_back(a);
+	}
+	cout << "Temporal PIN: " << tempPIN;
+	char toContinue = _getch();
 	return KEYPAD;
 }
 
