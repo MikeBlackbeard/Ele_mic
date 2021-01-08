@@ -1,6 +1,5 @@
 #include "DS2HouseResidents.h"
 
-
 DS2HouseResidents::DS2HouseResidents() {
 
 }
@@ -81,7 +80,6 @@ void DS2HouseResidents::DeleteResident() {
 	saveDatabase();
 }
 
-
 //this function needs to be updated
 void DS2HouseResidents::EditResident() {
 	std::cout << "please enter the User Name of the user that you want to edit: ";
@@ -135,7 +133,6 @@ void DS2HouseResidents::EditResident() {
 	}
 }
 
-
 //the next functions search into the list of residents to return a position where they are or -1 if they are not found
 int DS2HouseResidents::FindResident(char FingerRead) {
 	for (int i = 0; i < resident.size(); i++) {
@@ -159,7 +156,6 @@ bool DS2HouseResidents::VerifyPassword(int NResident, string passwordAtempt)
 			return true;
 		return false;
 	}
-	
 
 //The bool function retunr true is the correct or false if is not they will call a function into resident to return the value
 bool DS2HouseResidents::VerifyResidentPIN(int NResident, string enterPIN) {

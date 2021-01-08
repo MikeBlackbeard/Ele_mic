@@ -144,6 +144,7 @@
     <ClCompile Include="Bulb.cpp" />
     <ClCompile Include="DS2HouseResidents.cpp" />
     <ClCompile Include="Resident.cpp" />
+    <ClCompile Include="ResidentAccess.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="SD2.cpp" />
     <ClCompile Include="visitorApp.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Bulb.h" />
     <ClInclude Include="DS2HouseResidents.h" />
     <ClInclude Include="Resident.h" />
+    <ClInclude Include="ResidentAccess.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="UserMenu.h" />
     <ClInclude Include="visitorApp.h" />

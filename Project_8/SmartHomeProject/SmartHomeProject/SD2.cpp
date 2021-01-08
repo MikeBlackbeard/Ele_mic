@@ -36,7 +36,7 @@ int main()
                 userMenu(&MyHouse);  //go the the user menu
                 break;
             case '2':
-                doorAccess(&MyHouse);  //simulate the door behavior 
+                doorLoop(&MyHouse);  //simulate the door behavior 
                 break;
             case '3':
                 AppAccess(&MyHouse, &appData);  //simulate the app behavior

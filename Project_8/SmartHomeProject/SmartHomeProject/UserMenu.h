@@ -12,6 +12,7 @@
 #include"Resident.h"
 #include"DS2HouseResidents.h"
 #include "visitorApp.h"
+#include "ResidentAccess.h"
 
 //we include the standard library
 using namespace std; 
@@ -116,35 +117,35 @@ void userMenu(DS2HouseResidents* MyHouse) {
 	} while (run);
 }
 
-
-//Here we simulate the door behavior
-void doorAccess(DS2HouseResidents* MyHouse) {
-	char toContinue;  //this is just to avoid some warnings XD
-	bool runDoor = true;  //we run the menu until runDoor is false
-	do {
-		system("cls");  //clear the screen
-		cout << "Finger: a-z     -     Doorbell:  Espacebar        -       Atempt to open: Del.        -       Back: Esc" << std::endl
-			<< "Select an action";
-		char action = _getch();  //we store any key that the user press
-		if ((action >= 'a' && action <= 'z') || (action >= 'A' && action <= 'Z')) {  //we check that the key is a letter
-			bool OpenDoor = false;													 //remember that we represent a fingerprint as a letter
-			int userAtempt = -1;  // -1 is defined as user not found
-			userAtempt = MyHouse->FindResident(action);  //with this function we check in the list of residents if the fingerprint recognized.
-			if (userAtempt != -1) {  //if the user was found in the last function we continue, otherwise we exit.
-				cout << "\nPlease enter your PIN. ";
-				string PAtempt;  //to store the PIN that the user tried to open the door
-				cin >> PAtempt;
-				if (MyHouse->VerifyResidentPIN(userAtempt, PAtempt)) {  //this function retunrs true if the PIN is correct, flase if is not.
-					bool OpenDoor = true;  //if is correct we ope the door
-					cout << "The door is open";
-					toContinue = _getch();
-				} //if the PIN is not correct we just ignore and re-run menu
-			} //if the user is = -1 means that was not found and we re -un door
-		} //if the key pressed is not a letter we go the the else if
-		else if (action == 27) //27 represents the ESC key (remember that this runs in PC sorry for the ones that run macOS :P)
-			runDoor = false; //we stop running the dor
-	} while (runDoor);
-}
+//
+////Here we simulate the door behavior
+//void doorAccess(DS2HouseResidents* MyHouse) {
+//	char toContinue;  //this is just to avoid some warnings XD
+//	bool runDoor = true;  //we run the menu until runDoor is false
+//	do {
+//		system("cls");  //clear the screen
+//		cout << "Finger: a-z     -     Doorbell:  Espacebar        -       Atempt to open: Del.        -       Back: Esc" << std::endl
+//			<< "Select an action";
+//		char action = _getch();  //we store any key that the user press
+//		if ((action >= 'a' && action <= 'z') || (action >= 'A' && action <= 'Z')) {  //we check that the key is a letter
+//			bool OpenDoor = false;													 //remember that we represent a fingerprint as a letter
+//			int userAtempt = -1;  // -1 is defined as user not found
+//			userAtempt = MyHouse->FindResident(action);  //with this function we check in the list of residents if the fingerprint recognized.
+//			if (userAtempt != -1) {  //if the user was found in the last function we continue, otherwise we exit.
+//				cout << "\nPlease enter your PIN. ";
+//				string PAtempt;  //to store the PIN that the user tried to open the door
+//				cin >> PAtempt;
+//				if (MyHouse->VerifyResidentPIN(userAtempt, PAtempt)) {  //this function retunrs true if the PIN is correct, flase if is not.
+//					bool OpenDoor = true;  //if is correct we ope the door
+//					cout << "The door is open";
+//					toContinue = _getch();
+//				} //if the PIN is not correct we just ignore and re-run menu
+//			} //if the user is = -1 means that was not found and we re -un door
+//		} //if the key pressed is not a letter we go the the else if
+//		else if (action == 27) //27 represents the ESC key (remember that this runs in PC sorry for the ones that run macOS :P)
+//			runDoor = false; //we stop running the dor
+//	} while (runDoor);
+//}
 
 //this function needs to be checked by Marwa...Done
 void AppAccess(DS2HouseResidents* MyHouse, App* appData)
