@@ -559,25 +559,27 @@ meet on 30-12-2020 to discuss the update on the code
 
 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
+Meeting No.: 417 
+Meeting Date: 7-1-2020
+Meeting Time:  at 12 noon
+Meeting Venue: zoom 
+Attendees: all members 
+Absent Members: ---
 
 Agenda Details: 
-1- 
+1- discuss the next step and see the progress 
+
 
 
 Meeting Minutes: 
-1-
+-work in parallel paths HW and SW 
+- each member has to create a list of the required electronic components to implement his scenario o tinkercard 
+- each member has to work on his code scenario using “switch case” + try to code a test function 
 
 
-Actions plan & Assigned to &deadline: 
 
 
-Next meeting will be on: 
+Next meeting will be on:11-2-2020  Monday 6 pm 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
