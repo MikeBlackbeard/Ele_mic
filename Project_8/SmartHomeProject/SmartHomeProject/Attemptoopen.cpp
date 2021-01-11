@@ -1,12 +1,12 @@
-#include <iostream
-//#include "visitor.h
+#include <iostream>
+#include "visitorApp.h"
 
 #define CONFIRM_UNKNOWN 0
 #define ACTIVATE_ALARM_SYSTEM 1
 #define VISITOR 2
 #define EXIT 3
 
-confirmStatus - CONFIRM_UNKNOWN;
+int confirmStatus = CONFIRM_UNKNOWN;
 
 using namespace std;
 
@@ -14,7 +14,7 @@ int confirmUnknown()
 {
       cout <<"New open attempt detected. do you want to activate the alarm system? (Y/N)";
       char input;
-      cit >> input;
+      cin >> input;
       if (input == 'y'|| input == 'Y')
         return ACTIVATE_ALARM_SYSTEM;
       else
@@ -36,7 +36,7 @@ int main ()
          break;
          case VISITOR:
          cout << " Sending to Visitor.";
-         visitor.h
+         visitor();
          confirmStatus = EXIT;
          break;
     default:
