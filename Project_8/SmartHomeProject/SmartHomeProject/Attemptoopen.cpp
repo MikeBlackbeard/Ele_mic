@@ -23,7 +23,7 @@ int confirmUnknown()
 
 
 
-int main ()
+int doorOpenAtempt ()
 {
     switch (confirmStatus)
     {
