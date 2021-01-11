@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
-    <ClCompile Include="AttemptToOpen.cpp" />
+    <ClCompile Include="Attemptoopen.cpp" />
     <ClCompile Include="Bulb.cpp" />
     <ClCompile Include="DS2HouseResidents.cpp" />
     <ClCompile Include="Resident.cpp" />
@@ -151,7 +151,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
-    <ClInclude Include="AttemptToOpen.h" />
     <ClInclude Include="Bulb.h" />
     <ClInclude Include="DS2HouseResidents.h" />
     <ClInclude Include="Resident.h" />
