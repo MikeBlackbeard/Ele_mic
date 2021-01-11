@@ -42,6 +42,7 @@ int doorOpenAtempt ()
     default:
         break;
     }
+    return 0;
 }        
 
         

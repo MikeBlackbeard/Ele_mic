@@ -87,7 +87,7 @@ bool generateAndConfirmPin()
         else
         {
             cout << "Invalid input. The door remains closed. ";
-            confirmUnknown();
+            //confirmUnknown();
         }
         i++;
 
