@@ -147,6 +147,7 @@
     <ClCompile Include="ResidentAccess.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="SD2.cpp" />
+    <ClCompile Include="ToTheApp.cpp" />
     <ClCompile Include="visitorApp.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,7 @@
     <ClInclude Include="Resident.h" />
     <ClInclude Include="ResidentAccess.h" />
     <ClInclude Include="Room.h" />
+    <ClInclude Include="ToTheApp.h" />
     <ClInclude Include="UserMenu.h" />
     <ClInclude Include="visitorApp.h" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 #include "UserMenu.h"  //in UserMenu we have all the functions related to the system is the only header that we include since in the header
                         //we include any other related header file
-
+#include"ToTheApp.h"
 
 //Main function this is the first one that is going to run and from here.
 int main()
@@ -8,6 +8,7 @@ int main()
     srand(time(NULL));
     DS2HouseResidents MyHouse;  //In this variable we store all the information about the system, including the residents
     App appData;  
+    Bulb bulb; 
     
 
     bool run = true; // will allow the system to run in a loop until we chose to exit
@@ -40,7 +41,7 @@ int main()
                 doorLoop(&MyHouse);  //simulate the door behavior 
                 break;
             case '3':
-                AppAccess(&MyHouse, &appData);  //simulate the app behavior
+                AppAccess(&MyHouse, &appData,&bulb);  //simulate the app behavior
                 break;
             case '4':
                 visitor();

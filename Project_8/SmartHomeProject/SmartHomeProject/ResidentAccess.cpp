@@ -101,6 +101,8 @@ int PINConf(DS2HouseResidents* MyHouse, char* action, int* userAtempt, int* fals
 	else
 		return LOCK_KEYPAD;
 }
+
+
 int newPin()
 {
 	string tempPIN;

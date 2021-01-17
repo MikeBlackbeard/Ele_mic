@@ -145,8 +145,9 @@ void userMenu(DS2HouseResidents* MyHouse) {
 //	} while (runDoor);
 //}
 
-//this function needs to be checked by Marwa...Done
-void AppAccess(DS2HouseResidents* MyHouse, App* appData)
+
+
+/*void AppAccess(DS2HouseResidents* MyHouse, App* appData)
 {
 	bool run = true;
 	char a;
@@ -165,63 +166,63 @@ void AppAccess(DS2HouseResidents* MyHouse, App* appData)
 		{
 			string userAtempt, passwordAtempt; //user try to access the App
 			int getUser = -1;
-			bool verified = true; 
+			bool verified = true;
 			switch (menuOption[0])
 			{
 			case '1':
-					cout << "please enter you user name" << endl;
-					cin >> userAtempt;
-					getUser = MyHouse->FindResidentName(userAtempt); // find user in DS2HouseResidents.cpp	
-					if (getUser != -1) //if user  found
-					{
-						cout << "plese enter your password" << endl;
-						cin >> passwordAtempt;
-						if (MyHouse->VerifyPassword(getUser, passwordAtempt)) //fun to check password
-						{ //room menu
-							cout << "username and Password found" << endl;
-							bool ok = true;
-							do {
-								system("cls");
-								cout << "      ***************************************" << endl;
-								cout << "      ***            ROOM MENU            ***" << endl;
-								cout << "      ***************************************" << endl << endl;
-								cout << "            1. Create a new room." << endl;
-								cout << "            2. Access a room." << endl;
-								cout << "            3. Delete a room" << endl;
-								cout << "            4. Room List" << endl;
-								cout << "            5. back " << endl;
-								cout << "            Select an option. ";
-								string menuOption;
-								cin >> menuOption;
-								string roomname;
-								cin.clear();
-								if (menuOption.length() == 1) {
-									switch (menuOption[0])
-									{
-									case '1': 
-										appData->AddRoom();
-										break;
-									case '2':
-										appData->EnterRoom();
-										break;
-									case '3':
-										appData->deleteRoom();
-										break;
-									case '4':
-										appData->ShowRoom();
-										a = _getch();
-										break;
-									case '5':
-										ok = false;
-										break;
+				cout << "please enter you user name" << endl;
+				cin >> userAtempt;
+				getUser = MyHouse->FindResidentName(userAtempt); // find user in DS2HouseResidents.cpp
+				if (getUser != -1) //if user  found
+				{
+					cout << "plese enter your password" << endl;
+					cin >> passwordAtempt;
+					if (MyHouse->VerifyPassword(getUser, passwordAtempt)) //fun to check password
+					{ //room menu
+						cout << "username and Password found" << endl;
+						bool ok = true;
+						do {
+							system("cls");
+							cout << "      ***************************************" << endl;
+							cout << "      ***            ROOM MENU            ***" << endl;
+							cout << "      ***************************************" << endl << endl;
+							cout << "            1. Create a new room." << endl;
+							cout << "            2. Access a room." << endl;
+							cout << "            3. Delete a room" << endl;
+							cout << "            4. Room List" << endl;
+							cout << "            5. back " << endl;
+							cout << "            Select an option. ";
+							string menuOption;
+							cin >> menuOption;
+							string roomname;
+							cin.clear();
+							if (menuOption.length() == 1) {
+								switch (menuOption[0])
+								{
+								case '1':
+									appData->AddRoom();
+									break;
+								case '2':
+									appData->EnterRoom();
+									break;
+								case '3':
+									appData->deleteRoom();
+									break;
+								case '4':
+									appData->ShowRoom();
+									a = _getch();
+									break;
+								case '5':
+									ok = false;
+									break;
 
-									default:
-										break;
-									}
+								default:
+									break;
 								}
-							} while (ok);
-						} //end if that check password you can use an else to say that the password is incorrect
-					} 
+							}
+						} while (ok);
+					} //end if that check password you can use an else to say that the password is incorrect
+				}
 
 			case '2':
 				run = false;
@@ -233,4 +234,4 @@ void AppAccess(DS2HouseResidents* MyHouse, App* appData)
 		}
 	} while (run);
 
-}
+}*/
