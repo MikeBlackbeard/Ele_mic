@@ -115,7 +115,7 @@ int Lightening_system(DS2HouseResidents* MyHouse,App* appData)
 }
 
 
-void AppAccess(int event, DS2HouseResidents* MyHouse, App* appData, Bulb* bulb)
+void AppAccess(DS2HouseResidents* MyHouse, App* appData, Bulb* bulb)
 {
 	int state = MobileApp;
 	bool run = true;
@@ -143,21 +143,10 @@ void AppAccess(int event, DS2HouseResidents* MyHouse, App* appData, Bulb* bulb)
 			state=Lightening_system(MyHouse,appData);
 			break;
 		case BulbOn:
-			if (event==SwOff)
-			{
-				Bulb_Off(bulb);
-				state = BulbOff;
-			}	
+			 state=Bulb_On(bulb);
 			break;
-			
 		case BulbOff:
-
-			if (event==SwOn)
-			{
-				Bulb_On(bulb);
-				state = BulbOn;
-			}
-				
+			state= Bulb_Off(bulb);
 			break;
 		default:
 			break;

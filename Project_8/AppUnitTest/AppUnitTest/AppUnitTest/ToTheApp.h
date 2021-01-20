@@ -9,8 +9,6 @@
 #include "Resident.h"
 #include "DS2HouseResidents.h"
 
-//state 
-
 #define MobileApp 0
 #define ConfirmUserPass 1
 #define RoomAccess 2
@@ -18,12 +16,6 @@
 #define BulbOn 4
 #define BulbOff 5
 #define EXIT 8
-
-#define SwOn 100 //event 
-#define SwOff 200
-
-
-
 
 int Mobile_App(DS2HouseResidents* MyHouse, App* appData);
 int Confirm_UserPass(DS2HouseResidents* MyHouse, App* appData);

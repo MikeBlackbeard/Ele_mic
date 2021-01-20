@@ -1,5 +1,4 @@
-#include "window.h"
-
+/*
 Window :: Window (/ * args * /)
 {
   }
@@ -20,4 +19,4 @@ void Window :: open () {
     Status Window::returnStatus(){
       return status;
 
-    }
+    }*/
