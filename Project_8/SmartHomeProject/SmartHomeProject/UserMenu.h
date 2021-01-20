@@ -9,7 +9,7 @@
 #include"App.h"
 #include <conio.h>
 #include <fstream>
-#include "visitorApp.h"
+#include "Visitor.h"
 #include "ResidentAccess.h"
 
 //we include the standard library

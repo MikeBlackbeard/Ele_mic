@@ -82,7 +82,7 @@ bool generateAndConfirmPin()
         else if (i < 2)
         {
             cout << "You entered the wrong pin" << endl;
-            cout << "This is your " << i + 1 << ". trail" << endl;
+            cout << "This is your " << i + 1 << ". trial" << endl;
         }
         else
         {
