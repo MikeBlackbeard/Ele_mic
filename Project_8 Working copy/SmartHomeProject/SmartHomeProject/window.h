@@ -1,4 +1,4 @@
-/*#pragma once
+#pragma once
 
 enum Status{
   open, semiopen,close
@@ -16,4 +16,3 @@ private:
      void semiopen;
      status returnStatus();
    };
-   */

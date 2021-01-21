@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{98833c16-b7ab-4846-9881-52ba8e20cfe5}</ProjectGuid>
-    <RootNamespace>SmartHomeProject</RootNamespace>
+    <ProjectGuid>{4abbfa97-e54e-4ff5-b356-ec96fa59ee0b}</ProjectGuid>
+    <RootNamespace>DoorAccesUnitTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,7 +147,7 @@
     <ClCompile Include="ResidentAccess.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="SD2.cpp" />
-    <ClCompile Include="ToTheApp.cpp" />
+    <ClCompile Include="UnitTest.cpp" />
     <ClCompile Include="visitorApp.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -157,7 +157,6 @@
     <ClInclude Include="Resident.h" />
     <ClInclude Include="ResidentAccess.h" />
     <ClInclude Include="Room.h" />
-    <ClInclude Include="ToTheApp.h" />
     <ClInclude Include="UserMenu.h" />
     <ClInclude Include="visitorApp.h" />
   </ItemGroup>

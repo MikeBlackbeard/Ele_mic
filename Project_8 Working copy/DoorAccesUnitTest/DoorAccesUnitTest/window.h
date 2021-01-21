@@ -1,4 +1,4 @@
-/*#pragma once
+#pragma once
 
 enum Status{
   open, semiopen,close
@@ -8,7 +8,7 @@ class Window
 private:
   Status status;
    public:
-     Window (/ * args * /);
+     Window (/* args */);
      ~Window ();
      void changestatus(status newStatus);
      void open;
@@ -16,4 +16,3 @@ private:
      void semiopen;
      status returnStatus();
    };
-   */
