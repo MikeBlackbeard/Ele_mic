@@ -11,6 +11,7 @@
 #include <fstream>
 #include "visitorApp.h"
 #include "ResidentAccess.h"
+#include "HVAC.h"
 
 //we include the standard library
 using namespace std; 

@@ -26,7 +26,8 @@ int main()
         cout << "            2. To the door" << endl;
         cout << "            3. To the App." << endl;
         cout << "            4. Visitor" << endl;
-        cout << "            5. Exit." << endl;
+        cout << "            5. HVAC System" << endl;
+        cout << "            6. Exit." << endl;
         cout << "            Select an option: ";
         string menuOption1;  //we use a string to store the option so the system wont crash
         cin >> menuOption1; //reading the user selection
@@ -44,9 +45,12 @@ int main()
                 AppAccess(&MyHouse, &appData,&bulb);  //simulate the app behavior
                 break;
             case '4':
-                visitor();
+                visitorLoop();
                 break;
             case '5':
+                HVACloop();
+                break;
+            case '6':
                 run = false;  // we make run false so next loop wont run and we exit the program
                 break;
             default:

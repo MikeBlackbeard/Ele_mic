@@ -36,7 +36,7 @@ int doorOpenAtempt ()
          break;
          case VISITOR:
          cout << " Sending to Visitor.";
-         visitor();
+         visitorLoop();
          confirmStatus = EXIT;
          break;
     default:
