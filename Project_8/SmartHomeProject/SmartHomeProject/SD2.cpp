@@ -44,7 +44,7 @@ int main()
                 AppAccess(&MyHouse, &appData,&bulb);  //simulate the app behavior
                 break;
             case '4':
-                visitor();
+                visitorLoop();
                 break;
             case '5':
                 run = false;  // we make run false so next loop wont run and we exit the program
