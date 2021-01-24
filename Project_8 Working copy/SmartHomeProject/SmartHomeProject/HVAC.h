@@ -1,13 +1,11 @@
 #pragma once
 
 #include <iostream>
-#include <windows.h>
-#include <time.h>
 using namespace std;
 
 #define READ_TEMP 0
 #define HEATING 1
-#define COOLING 2
+#define COOLING 2/
 #define STANDBY 3
 
 int readTemp();
