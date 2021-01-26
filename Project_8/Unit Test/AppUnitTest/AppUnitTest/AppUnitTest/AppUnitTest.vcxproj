@@ -139,14 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\App.cpp" />
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\Bulb.cpp" />
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\DS2HouseResidents.cpp" />
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\Resident.cpp" />
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\ResidentAccess.cpp" />
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\Room.cpp" />
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\ToTheApp.cpp" />
-    <ClCompile Include="..\..\..\SmartHomeProject\SmartHomeProject\visitorApp.cpp" />
     <ClCompile Include="AppUnitTest.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -156,10 +148,7 @@
     <ClInclude Include="..\..\..\SmartHomeProject\SmartHomeProject\Resident.h" />
     <ClInclude Include="..\..\..\SmartHomeProject\SmartHomeProject\ResidentAccess.h" />
     <ClInclude Include="..\..\..\SmartHomeProject\SmartHomeProject\Room.h" />
-    <ClInclude Include="..\..\..\SmartHomeProject\SmartHomeProject\ToTheApp.h" />
     <ClInclude Include="..\..\..\SmartHomeProject\SmartHomeProject\UserMenu.h" />
-    <ClInclude Include="..\..\..\SmartHomeProject\SmartHomeProject\Visitor.h" />
-    <ClInclude Include="..\..\..\SmartHomeProject\SmartHomeProject\visitorApp.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\SmartHomeProject\SmartHomeProject\App.txt" />

@@ -13,12 +13,11 @@ using namespace std;
 
 //fun 
 int getstate();
-void control(int event, DS2HouseResidents* MyHouse, App* appData, Bulb* bulb);
-void LoadAppInfo(App* appData);
+void control(int event);
 
 int state = BulbOn;//intital state 
 
-int testEventSequence[] = { BulbOff,BulbOn,BulbOn, BulbOff,BulbOff }; //Event
+int testEventSequence[] = { SwOff,SwOn,SwOn, SwOff,SwOff }; //Event
 
 //length of test sequence
 int testSequenceLenght = sizeof(testEventSequence) / sizeof(testEventSequence[0]);
@@ -29,7 +28,7 @@ int exptectedOutputTestEventSequence[] = { BulbOff, BulbOn,BulbOn,BulbOff,BulbOf
 
 
 //storing the test result
-int testOutputTestEventSequence[] = { 0,0,0,0,0,0,0 }; 
+int testOutputTestEventSequence[] = { 0,0,0,0,0,0,0 };
 int countErrors = 0;
 
 //function for testing the light - validation test
@@ -47,12 +46,10 @@ int main(void) {
 //test implementation
 void validationTestRun() {
 
-	DS2HouseResidents MyHouse;
-	App appData;
-	Bulb bulb; 	
+
 
 	for (int testIndex = 0; testIndex < 5; testIndex++) {
-		control(testEventSequence[testIndex], &MyHouse, &appData, &bulb);
+		control(testEventSequence[testIndex]);
 		if (getstate() == exptectedOutputTestEventSequence[testIndex]) {
 			testOutputTestEventSequence[testIndex] = 1;
 		}
@@ -79,43 +76,29 @@ void printTestResult() {
 	}
 }
 
-void control(int event, DS2HouseResidents* MyHouse, App* appData, Bulb* bulb)
+void control(int event)
 {
-	int state = BulbOn;
-		switch (state)
+
+	switch (state)
+	{
+
+	case BulbOn:
+		if (event == SwOff)
 		{
-		case MobileApp:
-			state = Mobile_App(MyHouse, appData);
-			if (state == EXIT)
-				break;
-		case ConfirmUserPass:
-			state = Confirm_UserPass(MyHouse, appData);
-			break;
-		case RoomAccess:
-			state = Room_fun(MyHouse, appData);
-			break;
-		case LighteningSystem:
-			state = Lightening_system(MyHouse, appData);
-			break;
-		case BulbOn:
-			if (event==SwOff)
-			{
-				Bulb_Off(bulb);
-				state = BulbOff;
-			}
-			break;
-
-		case BulbOff:
-
-			if (event==SwOn)
-			{
-				Bulb_On(bulb);
-				state = BulbOn;
-			}
-				default:
-			break;
+			state = BulbOff;
 		}
+		break;
+
+	case BulbOff:
+
+		if (event == SwOn)
+		{
+			state = BulbOn;
+		}
+	default:
+		break;
 	}
+}
 
 
 
@@ -125,20 +108,4 @@ int getstate()
 	return state;
 }
 
-void LoadAppInfo(App* appData)
-{
-	Room roomList;
-	string load_RoomID;
-	Bulb load_Lamps;
-	string load_BulbID;
-	bool load_BulbState;
-	ifstream load_file("App.txt");
-	while (load_file >> load_RoomID >> load_BulbID >> load_BulbState)
-	{
 
-		roomList.loadRoom(load_RoomID);
-		load_Lamps.loadBulb(load_BulbID, load_BulbState);
-		appData->loadRoom(roomList);
-	}
-
-}
