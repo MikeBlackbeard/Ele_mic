@@ -685,25 +685,70 @@ organize a meeting to discuss the documentation part and responsibiltes of each 
 ---
 Next meeting will be on: 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
+Meeting No.: 422
+Meeting Date: 30-2-2021
+Meeting Time:  at 12 noon 
+Meeting Venue: online 
 Attendees: 
 Absent Members: 
 
 Agenda Details: 
-1- 
-
+1- discussing the document part
 
 Meeting Minutes: 
-1-
+we agreed on the following :
+document for each group :
+each member has to submit to Mike on 19-2-2021
+word file 
+-Contribution of 2 to 4 pages by each team using the format send in group
+4-7 pages in normal word sheet using Arial 12 font . 
+
+
+Each member : 
+ Document should include design models like:
+1-Concept:brief explanation of the scenario 
+ From analysis level (use cases, env. model, scenarios, …) down
+to design level including diagrams, visualizations, …
+
+2- Modelling : 
+activity , State machine , Sequence 
+
+3-Sw :  The annex includes
+ Source code in detail..  (H and c++ file ,Class )
+
+4-HW 
+ Tinkercard, pins 
+ Relevant parts of implementation (excerpts)…..components 
+
+5-Mini Summary to conclude ur scenario 
+6- Appendix, References ,Citation APA
+
+
+Sharing : 
+
+1- Github overview…..Mike 
+ Lines of code
+ Number of submits per person
+ Structure (folder hierarchy)
+ contribution in % by each member to the overall project including
+a coarse work estimation in h per member
+- Affidavit 
+
+2-Abstract…..Marwa 
+ Overview of document including main outcomes……….
+
+3- Motivation…Amit 
+ Motivation for project including problem domain and requirements…..
+4- Sketch of approach…class ,use case ……Charles 
+5-deployment ,block diagram…..Abeeb 
+6- Summary and outlook…….Vincent 
+
 
 
 Actions plan & Assigned to &deadline: 
 
 
-Next meeting will be on: 
+Next meeting will be on: 23-2-2021 to discuss the final document 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
