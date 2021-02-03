@@ -579,104 +579,62 @@ Meeting Minutes:
 
 
 
-Next meeting will be on:11-2-2020  Monday 6 pm 
+Next meeting will be on:11-12-2020  Monday 6 pm 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
+Meeting No.: 417 
+Meeting Date: 3-1-2021
+Meeting Time:  6 pm 
+Meeting Venue: online 
+Attendees: all members 
+Absent Members: ---
 
 Agenda Details: 
-1- 
+1- each member show the preogress of his scenario to be reviewd 
 
 
 Meeting Minutes: 
-1-
+1-Discussed the HW parts on tinker cards and the components 
 
 
-Actions plan & Assigned to &deadline: 
+Actions plan & Assigned to &deadline: continue working and optimizing the project 
 
 
 Next meeting will be on: 
 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
+Meeting No.: 418 
+Meeting Date: 7-1-2021
+Meeting Time:  12 
+Meeting Venue: online 
+Attendees: all members 
+Absent Members: ----
 
 Agenda Details: 
-1- 
+1- discuss the test code for each members 
 
 
 Meeting Minutes: 
-1-
+1-showing the test squence and discussing the errors 
 
 
 Actions plan & Assigned to &deadline: 
+meet again to finialize the project 
 
-
-Next meeting will be on: 
+Next meeting will be on: 17-1-2021 at 6 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
+Meeting No.: 419 
+Meeting Date: 17-1-2021
+Meeting Time:  at 6 pm 
+Meeting Venue: online 
+Attendees: all members 
+Absent Members: ---
 
 Agenda Details: 
-1- 
+1- Discuss about how we r going to present 
 
 
 Meeting Minutes: 
-1-
-
-
-Actions plan & Assigned to &deadline: 
-
-
-Next meeting will be on: 
---------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
-
-Agenda Details: 
-1- 
-
-
-Meeting Minutes: 
-1-
-
-
-Actions plan & Assigned to &deadline: 
-
-
-Next meeting will be on: 
-
-
---------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
-Attendees: 
-Absent Members: 
-
-Agenda Details: 
-1- 
-
-
-Meeting Minutes: 
-1-
+1-listing the outline of how the PPT will be 
 
 
 Actions plan & Assigned to &deadline: 
@@ -684,25 +642,113 @@ Actions plan & Assigned to &deadline:
 
 Next meeting will be on: 
 --------------------------------------------------------------------------------------------------------------------
-Meeting No.: 
-Meeting Date: 
-Meeting Time:  
-Meeting Venue: 
+Meeting No.: 420
+Meeting Date: 24-1-2021
+Meeting Time:  at 6 pm 
+Meeting Venue: online 
+Attendees: all members 
+Absent Members: ----
+
+Agenda Details: 
+1- doing a 1st PPT rehersal 
+
+
+Meeting Minutes: 
+1-the members are giving comments to how their collegues are presenting for development . 
+2- finalize the tinker card and HW parts 
+3- agreed on including a video show the SW and Hw 
+Actions plan & Assigned to &deadline: 
+Doing 2nd rehersal
+
+Next meeting will be on: 28-1-2021
+
+
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 421
+Meeting Date: 28-1-2021
+Meeting Time:  8 am 
+Meeting Venue: online 
+Attendees: all members 
+Absent Members: ----
+
+Agenda Details: 
+1- doing a last rehersal before the PPt 
+
+
+Meeting Minutes: 
+1-each members present his scenario 
+
+
+Actions plan & Assigned to &deadline: 
+organize a meeting to discuss the documentation part and responsibiltes of each member 
+
+---
+Next meeting will be on: 
+--------------------------------------------------------------------------------------------------------------------
+Meeting No.: 422
+Meeting Date: 30-2-2021
+Meeting Time:  at 12 noon 
+Meeting Venue: online 
 Attendees: 
 Absent Members: 
 
 Agenda Details: 
-1- 
-
+1- discussing the document part
 
 Meeting Minutes: 
-1-
+we agreed on the following :
+document for each group :
+each member has to submit to Mike on 19-2-2021
+word file 
+-Contribution of 2 to 4 pages by each team using the format send in group
+4-7 pages in normal word sheet using Arial 12 font . 
+
+
+Each member : 
+ Document should include design models like:
+1-Concept:brief explanation of the scenario 
+ From analysis level (use cases, env. model, scenarios, …) down
+to design level including diagrams, visualizations, …
+
+2- Modelling : 
+activity , State machine , Sequence 
+
+3-Sw :  The annex includes
+ Source code in detail..  (H and c++ file ,Class )
+
+4-HW 
+ Tinkercard, pins 
+ Relevant parts of implementation (excerpts)…..components 
+
+5-Mini Summary to conclude ur scenario 
+6- Appendix, References ,Citation APA
+
+
+Sharing : 
+
+1- Github overview…..Mike 
+ Lines of code
+ Number of submits per person
+ Structure (folder hierarchy)
+ contribution in % by each member to the overall project including
+a coarse work estimation in h per member
+- Affidavit 
+
+2-Abstract…..Marwa 
+ Overview of document including main outcomes……….
+
+3- Motivation…Amit 
+ Motivation for project including problem domain and requirements…..
+4- Sketch of approach…class ,use case ……Charles 
+5-deployment ,block diagram…..Abeeb 
+6- Summary and outlook…….Vincent 
+
 
 
 Actions plan & Assigned to &deadline: 
 
 
-Next meeting will be on: 
+Next meeting will be on: 23-2-2021 to discuss the final document 
 --------------------------------------------------------------------------------------------------------------------
 Meeting No.: 
 Meeting Date: 
